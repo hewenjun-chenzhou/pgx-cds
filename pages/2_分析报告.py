@@ -26,16 +26,31 @@ from pages._agent_section import render_agent_section  # noqa: E402
 # 此页面所有 matplotlib 图都必须能渲染中文（"后验概率""证据 1"等），
 # 否则会出现方框。优先挑已安装的中文字体回写 matplotlib rcParams。
 import matplotlib
+import matplotlib.font_manager as fm
+
+# 强制重建字体缓存（防止 Streamlit Cloud 字体缓存过期）
+try:
+    fm._load_fontmanager(try_read_cache=False)
+except Exception:
+    pass
+
+# 找系统中实际可用的中文字体
+_available_cn = []
+for f in fm.fontManager.ttflist:
+    name = f.name.lower()
+    if any(k in name for k in ["noto sans cjk", "microsoft yahei", "simhei", "pingfang", "simsun", "wqy"]):
+        _available_cn.append(f.name)
 
 try:
-    matplotlib.rcParams["font.sans-serif"] = [
+    _cn_list = _available_cn if _available_cn else [
+        "Noto Sans CJK SC",
         "Microsoft YaHei",
         "SimHei",
         "PingFang SC",
         "Microsoft JhengHei",
-        "Noto Sans CJK SC",
         "DejaVu Sans",
     ]
+    matplotlib.rcParams["font.sans-serif"] = _cn_list
     matplotlib.rcParams["axes.unicode_minus"] = False  # 负号正常显示
 except Exception:
     pass
