@@ -1,0 +1,11 @@
+主诉：精神分裂症8年，复发伴行为紊乱2月
+诊断：偏执型精神分裂症（ICD-10 F20.0），氟哌啶醇治疗中
+用药：氟哌啶醇 5mg Bid（10mg/d），苯海索 2mg Bid
+化验：ALT=30 U/L，AST=25 U/L，Cr=0.95 mg/dL，CrCl=88 mL/min，eGFR=92 mL/min/1.73m²，Alb=4.0 g/dL，T.Bili=0.6 mg/dL，NH3=28 μg/dL，INR=1.0，PT=12秒，Plt=240000 /μL，K=4.3 mEq/L，CRP=3 mg/L
+人群：欧洲
+氟哌啶醇标准剂量（10mg/d）治疗第3周出现明显锥体外系反应：
+- Simpson-Angus Scale (SAS) = 18（基线2）
+- DIEPSS = 12（基线1）
+- 表现为：面具脸、肌强直、静止性震颤、运动迟缓、姿势不稳
+- BARS（Barnes静坐不能）= 3（轻度）
+- 未使用CYP2D6强抑制剂（无帕罗西汀/氟西汀/安非他酮联用，排除phenocopying）

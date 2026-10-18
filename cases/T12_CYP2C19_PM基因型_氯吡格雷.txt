@@ -1,0 +1,6 @@
+主诉：PCI术后1月随访
+诊断：冠心病，PCI术后
+用药：氯吡格雷75mg QD，阿司匹林100mg QD，阿托伐他汀20mg QN
+化验：ALT=28 U/L，AST=24 U/L，Cr=1.0 mg/dL，CrCl=80 mL/min，eGFR=88 mL/min/1.73m²，Alb=4.0 g/dL，T.Bili=0.7 mg/dL，NH3=30 μg/dL，INR=1.0，PT=12秒，Plt=215000 /μL，K=4.1 mEq/L，CRP=4 mg/L
+人群：东亚
+CYP2C19: *2/*3 (PM型)

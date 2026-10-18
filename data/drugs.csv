@@ -1,0 +1,28 @@
+﻿drug_name,drug_category,cyp2d6_effect,pm_action,um_action,recommendation_grade,evidence,alternatives,source
+文拉法辛,SNRI抗抑郁药,substrate,考虑换用非CYP2D6代谢抗抑郁药,无需调整（证据不足，无推荐）,C,Optional,米氮平/米那普仑,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）"
+帕罗西汀,SSRI抗抑郁药,substrate_and_inhibitor,起始剂量减50%并缓慢滴定或换药,换用非CYP2D6代谢药物,B,Moderate,舍曲林/艾司西酞普兰,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）"
+氟伏沙明,SSRI抗抑郁药,substrate,起始剂量减25-50%并缓慢滴定或换药,无数据（无推荐）,C,Moderate,舍曲林/艾司西酞普兰,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）"
+氟西汀,SSRI抗抑郁药,substrate_and_inhibitor,避免或密切监测+TDM（活性代谢物诺氟西汀半衰期7-15天，PM中母药蓄积）,无CPIC推荐,B,Moderate,舍曲林/艾司西酞普兰,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）"
+阿米替林,TCA抗抑郁药,substrate,避免使用；若必须则减量50%并TDM,避免使用；若必须则加量并TDM,B,Strong,米氮平/安非他酮,"CPIC 2016 TCA指南（Hicks et al., Clin Pharmacol Ther 2017;102:37-44）"
+氯米帕明,TCA抗抑郁药,substrate,避免或减量50%并TDM,避免或加量并TDM,B,Moderate,艾司西酞普兰/舍曲林,CPIC 2016 TCA指南（由阿米替林外推）
+去甲替林,TCA抗抑郁药,substrate,避免使用；减量50%并TDM,避免使用；加量并TDM,B,Strong,米氮平/舍曲林,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）"
+地昔帕明,TCA抗抑郁药,substrate,避免或减量50%并TDM,避免或加量并TDM,B,Strong,米氮平,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）"
+多塞平,TCA抗抑郁药,substrate,避免或减量50%并TDM,避免或加量并TDM,B,Moderate,米氮平,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）"
+丙米嗪,TCA抗抑郁药,substrate,避免或减量50%并TDM,避免或加量并TDM,B,Moderate,米氮平,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）"
+曲唑酮,SARI抗抑郁药,substrate,减量（CYP2D6为次要途径）,密切监测,C,Low,米氮平/喹硫平,PharmGKB（无CPIC/DPWG的CYP2D6剂量指南）
+度洛西汀,SNRI抗抑郁药,substrate_and_inhibitor,减量或换药,密切监测,C,Low,米那普仑/米氮平,CPIC 2023 SRI指南 / DPWG / FDA标签
+沃替西汀,其他抗抑郁药,substrate,起始剂量减50%（如5mg）并限最大10mg或换药,换非CYP2D6药；若用可加量50%,B,Moderate,艾司西酞普兰/舍曲林,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）"
+可待因,阿片类镇痛药,prodrug,避免使用（镇痛无效）,避免使用（中毒风险）,A,Strong,吗啡/氢吗啡酮,"CPIC 2021 阿片类指南（Crews et al., Clin Pharmacol Ther 2021）"
+曲马多,阿片类镇痛药,prodrug,避免使用（镇痛减弱）,避免使用（中毒风险）,A,Strong,吗啡/氢可酮/羟考酮,"CPIC 2021 阿片类指南（Crews et al., Clin Pharmacol Ther 2021）"
+奥氮平,非典型抗精神病药,non_substrate,无需调整（非CYP2D6底物）,无需调整,D,,非CYP2D6底物,PharmGKB/FDA标签（主要CYP1A2/UGT1A4/FMO3）
+氟哌啶醇,典型抗精神病药,substrate,PM型起始减50%并监测EPS（治疗窗参考3-15ng/mL）；换药考虑奥氮平/喹硫平,密切监测（UM型可能需加量）,B,Moderate,奥氮平/喹硫平/阿立哌唑,"DPWG 2024指南（Beunk et al., Eur J Hum Genet 2024;32:278-285） / Luca et al. Eur J Psychiatry 2026;40:100338（18项研究2037例汇总：氟哌啶醇PM中40-80%出现EPS vs EM 12-30%；氟哌啶醇>50%清除经CYP2D6）"
+利培酮,非典型抗精神病药,substrate,PM/IM型起始剂量减50%并TDM监测血药浓度（治疗窗20-60ng/mL含活性代谢物）；可换用蓝药,密切监测（UM型可能疗效不足）,B,Moderate,帕利哌酮/奥氮平/阿立哌唑,"DPWG 2024指南 / Lu et al. BMC Psychiatry 2021 / Luca et al. Eur J Psychiatry 2026（Bondrescu 2024：IM/PM震颤僵硬73% vs EM 23%，P=0.002；Ito 2018：IM DIEPSS 5.0 vs EM 0.0，P<0.001）"
+阿立哌唑,非典型抗精神病药,substrate,减量至常规剂量的50%,密切监测或换药,B,Moderate,奥氮平/喹硫平,FDA药品标签 / DPWG
+奋乃静,典型抗精神病药,substrate,减量,密切监测,C,Low,奥氮平/喹硫平,DPWG指南
+阿托西汀,ADHD治疗药,substrate,起始剂量减50%并缓慢滴定,标准剂量；疗效不足再加量,A,Strong,哌甲酯/胍法辛,"CPIC 2019 阿托西汀指南（Brown et al., Clin Pharmacol Ther 2019;106:94-102）"
+昂丹司琼,止吐药,substrate,无需减量（疗效可能增强）,换非CYP2D6止吐药（如格拉司琼）,B,Moderate,格拉司琼,"CPIC 2017 昂丹司琼/托烷司琼指南（Bell et al., Clin Pharmacol Ther 2017;102:213-218）"
+他莫昔芬,激素调节药,prodrug,绝经后考虑换芳香化酶抑制剂；绝经前可考虑更高剂量TAM或Endoxifen水平监测,无需调整,A,Strong,来曲唑/阿那曲唑（仅绝经后）,"CPIC 2018 他莫昔芬指南（Goetz et al., Clin Pharmacol Ther 2018;103:770-777）"
+美托洛尔,β受体阻滞剂,substrate,减量并监测心率,必要时加量,B,Moderate,阿替洛尔,DPWG指南（注意：比索洛尔亦为CYP2D6底物，PM时同样蓄积，不能作为替代）
+布瑞哌唑,非典型抗精神病药,substrate,PM型剂量减50%（如1-2mg/d）并密切随访EPS/锥体外系反应,换用非CYP2D6药物或加量并监测,B,Moderate,奥氮平/阿立哌唑/喹硫平,"DPWG 2024指南（Beunk et al., Eur J Hum Genet 2024;32:278-285） / FDA药品标签"
+珠氯噻醇,典型抗精神病药,substrate,PM型起始剂量减50%并监测EPS；换药考虑奥氮平/阿立哌唑,密切监测并考虑加量,B,Moderate,奥氮平/阿立哌唑/喹硫平,"DPWG 2024指南 / Luca et al. Eur J Psychiatry 2026（Jaanson 2002：维持期珠氯噻醇治疗PM中EPS显著相关）"
+匹莫齐特,典型抗精神病药,substrate,PM型起始剂量减50%（如1-2mg/d）并延长QTc监测；换用非CYP2D6药,加量并监测QTc,C,Low,奥氮平/阿立哌唑/喹硫平,"DPWG 2024指南 / FDA药品标签（QT延长风险）"

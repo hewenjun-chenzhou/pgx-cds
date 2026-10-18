@@ -1,0 +1,10 @@
+﻿drug_name,strength,category,gene_target,type,inhibition_type
+帕罗西汀,强,SSRI抗抑郁药,CYP2D6,inhibitor,inhibitor+substrate
+氟西汀,强,SSRI抗抑郁药,CYP2D6,inhibitor,inhibitor+substrate
+安非他酮,强,SSRI抗抑郁药(NDRI),CYP2D6,inhibitor,inhibitor+substrate
+度洛西汀,中,SNRI抗抑郁药,CYP2D6,inhibitor,inhibitor+substrate
+西咪替丁,中,H2受体拮抗剂,CYP2D6,inhibitor,inhibitor
+奎尼丁,强,抗心律失常药,CYP2D6,inhibitor,inhibitor
+特比萘芬,强,抗真菌药,CYP2D6,inhibitor,inhibitor
+胺碘酮,中,抗心律失常药,CYP2D6,inhibitor,inhibitor
+塞来昔布,弱,COX-2抑制剂,CYP2D6,inhibitor,inhibitor

@@ -1,0 +1,5 @@
+﻿population,pm_freq,im_freq,nm_freq,um_freq,source,confidence
+东亚,0.13,0.45,0.41,0.01,"PharmGKB/CPIC 2022 (Lee et al., Clin Pharmacol Ther 2022)",high
+欧洲,0.025,0.26,0.6,0.115,"PharmGKB/CPIC 2022 (Lee et al., Clin Pharmacol Ther 2022)",high
+非洲裔,0.04,0.24,0.67,0.05,gnomAD v4 + CPIC 2022 推算（*17 等位基因频率约 6-15%）,medium
+拉美裔,0.03,0.3,0.52,0.15,RIBEF-CEIBA Consortium (CPT 2018) + gnomAD v4 推算,medium

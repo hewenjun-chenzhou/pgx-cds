@@ -1,0 +1,43 @@
+病例 ID: T23_DPWG_PM_Luca2026
+
+主诉：精神分裂症10年，复发伴明显锥体外系反应(EPS) 6周
+
+诊断：偏执型精神分裂症（ICD-10 F20.0）
+
+用药：氟哌啶醇 5mg Bid（10mg/d），利培酮 3mg/d，苯海索 2mg Bid
+
+人群：欧洲（高加索）
+
+性别：男
+年龄：52岁
+
+基因型：CYP2D6 *4/*4, PM（*4 为最常见失功能等位基因，纯合 PM 活性分=0；欧洲人群 *4 等位频率约 18-23%，PM 表型约 5-7%）
+
+化验：ALT=30 U/L，AST=25 U/L，Cr=0.95 mg/dL，CrCl=88 mL/min，eGFR=92 mL/min/1.73m²，Alb=4.0 g/dL，T.Bili=0.6 mg/dL，NH3=28 μg/dL，INR=1.0，PT=12秒，Plt=240000 /μL，K=4.3 mEq/L，CRP=3 mg/L
+（肝肾功能全部正常，排除 phenoconversion 干扰，纯基因型驱动表型推断）
+
+既往用药与临床信号：
+- 可待因 30mg 术后镇痛（既往史）→ 镇痛效果差 → 强提示 CYP2D6 PM（可待因需 CYP2D6 活化为吗啡）
+- 曲马多 50mg 术后镇痛（既往史）→ 镇痛效果差 → 进一步佐证 PM
+- 氟哌啶醇 5mg Bid 治疗第3周出现明显 EPS：
+  · Simpson-Angus Scale (SAS) = 18（基线 2）
+  · DIEPSS = 12（基线 1）
+  · 临床表现：面具脸、肌强直、静止性震颤、运动迟缓、姿势不稳
+  · BARS（Barnes 静坐不能）= 3（轻度）
+- 未联用 CYP2D6 强抑制剂（无帕罗西汀/氟西汀/安非他酮/丁氨苯丙酮），排除 phenocopying
+
+演示目的：完整展示 DPWG 2024 + Luca 2026 证据链
+本案例同时覆盖 DPWG 2024 指南（Beunk et al., Eur J Hum Genet 2024;32:278-285）针对 CYP2D6-PM 推荐的 6 个高风险抗精神病药中的 2 个：
+- 氟哌啶醇（Haloperidol）：DPWG 2024 建议 PM 起始剂量减 50% 并监测 EPS
+- 利培酮（Risperidone）：DPWG 2024 建议 PM 起始剂量减 50% 并 TDM 监测血药浓度
+
+证据基础汇总（系统自动从 drugs.csv 读取并显示在 UI）：
+- DPWG 2024（Beunk et al., 2024）：PM 减量 50% 共识
+- Luca et al. Eur J Psychiatry 2026;40:100338：18项研究 2037 例系统综述，氟哌啶醇 PM 中 40-80% 出现 EPS vs EM 12-30%；氟哌啶醇 > 50% 清除经 CYP2D6
+- Lu et al. BMC Psychiatry 2021：利培酮 IM/PM 震颤僵硬 73% vs EM 23%（P=0.002）
+- Bondrescu 2024 / Ito 2018：利培酮 DIEPSS 在 IM/PM 显著升高
+
+预期 UI 输出（应用 UI 来源徽章改法后）：
+- 关键药品清单：氟哌啶醇 / 利培酮 行 → 来源列显示 "DPWG 2024" 徽章 + Grade B
+- 详情卡片展开：📚 证据来源完整显示 DPWG + Luca 2026 卷号 + 关键数字
+- 关键药品清单次要行：阿立哌唑 / 布瑞哌唑 / 匹莫齐特 / 珠氯噻醇（虽未在用，但按表型展示）→ 同样显示 DPWG 2024 来源

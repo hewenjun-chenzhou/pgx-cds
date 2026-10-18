@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "PGx临床决策支持层级知识库",
+    "genes": ["CYP2D6", "CYP2C19"],
+    "blood_marker_dimensions": ["liver", "renal", "coagulation", "blood", "electrolyte", "inflammation", "tdm"],
+    "source": "CPIC指南 + FDA labels + 临床判断"
+  },
+
+  "genes": {
+    "CYP2D6": {
+      "full_name": "Cytochrome P450 2D6",
+      "substrates": ["文拉法辛", "帕罗西汀", "氟伏沙明", "阿米替林", "氯米帕明", "多塞平", "丙米嗪", "度洛西汀", "可待因", "曲马多", "美托洛尔", "普罗帕酮", "他莫昔芬"],
+      "inhibitors": ["氟西汀", "帕罗西汀", "安非他酮", "奎尼丁", "舍曲林"],
+      "function_impact_factors": {
+        "liver_dysfunction": {
+          "ALT>3xULN": {"metabolism_reduction": "50%", "evidence": "FDA_labels_multiple"},
+          "AST>3xULN": {"metabolism_reduction": "30-50%", "evidence": "FDA_label_amitriptyline"},
+          "Alb<2.5g/dL": {"metabolism_reduction": "游离药物↑", "evidence": "FDA_label_multiple"},
+          "T.Bili>2mg/dL": {"metabolism_reduction": "20-40%", "evidence": "clinical_judgment"},
+          "NH3>1.5xULN": {"metabolism_reduction": "严重受损", "evidence": "FDA_label_lorazepam"}
+        },
+        "renal_dysfunction": {
+          "CrCl<30": {"accumulation_risk": "高", "dose_adjustment": "减量50%或换药", "evidence": "FDA_label_codeine_tramadol"},
+          "CrCl 30-50": {"accumulation_risk": "中", "dose_adjustment": "减量，密切监测", "evidence": "FDA_label_codeine"},
+          "eGFR<30": {"accumulation_risk": "高", "dose_adjustment": "减量", "evidence": "FDA_label_metoprolol_propafenone"},
+          "HD": {"note": "透析清除增加，透析后给药", "dose_adjustment": "减量", "evidence": "FDA_label_tramadol"}
+        },
+        "coagulation_abnormality": {
+          "INR>1.5": {"bleeding_risk_increase": "叠加", "monitor": "心电图/出血体征", "evidence": "clinical_judgment"}
+        },
+        "inflammation": {
+          "CRP>50mg/L": {"metabolism_reduction": "may_decrease", "evidence": "clinical_judgment"}
+        }
+      },
+      "phenotypes": {
+        "PM": {"metabolic_capacity": "极低/无", "prevalence_EUR": "5-10%", "prevalence_EAS": "1-3%"},
+        "IM": {"metabolic_capacity": "降低", "prevalence_EUR": "10-15%", "prevalence_EAS": "30-40%"},
+        "NM": {"metabolic_capacity": "正常", "prevalence_EUR": "65-80%", "prevalence_EAS": "50-60%"},
+        "UM": {"metabolic_capacity": "增强", "prevalence_EUR": "1-5%", "prevalence_EAS": "1-5%"}
+      }
+    },
+    "CYP2C19": {
+      "full_name": "Cytochrome P450 2C19",
+      "substrates": ["奥美拉唑", "兰索拉唑", "泮托拉唑", "埃索美拉唑", "雷贝拉唑", "氯吡格雷", "伏立康唑", "地西泮", "舍曲林", "艾司西酞普兰", "西酞普兰"],
+      "inhibitors": ["氟伏沙明", "奥美拉唑", "埃索美拉唑"],
+      "function_impact_factors": {
+        "liver_dysfunction": {
+          "ALT>3xULN": {"metabolism_reduction": "50%", "evidence": "FDA_labels_multiple_voriconazole_lansoprazole"},
+          "AST>3xULN": {"metabolism_reduction": "30-50%", "evidence": "FDA_label_voriconazole"},
+          "Alb<2.5g/dL": {"metabolism_reduction": "游离药物↑", "evidence": "FDA_label_multiple"},
+          "T.Bili>2mg/dL": {"metabolism_reduction": "20-40%", "evidence": "clinical_judgment"},
+          "NH3>1.5xULN": {"metabolism_reduction": "严重受损", "evidence": "clinical_judgment"}
+        },
+        "renal_dysfunction": {
+          "CrCl<30": {"accumulation_risk": "高", "dose_adjustment": "减量或换药", "evidence": "FDA_label_clopidogrel"},
+          "CrCl 30-50": {"accumulation_risk": "中", "dose_adjustment": "监测", "evidence": "clinical_judgment"},
+          "eGFR<30": {"accumulation_risk": "高", "dose_adjustment": "PPI类减量", "evidence": "FDA_label_proton_pump_inhibitors"}
+        },
+        "coagulation_abnormality": {
+          "INR>1.5": {"bleeding_risk_increase": "叠加", "monitor": "CPIC华法林指南", "evidence": "CPIC_warfarin_guideline"},
+          "PT>1.5x": {"metabolism_reduction": "肝脏合成功能↓", "dose_adjustment": "减量", "evidence": "clinical_judgment"}
+        },
+        "inflammation": {
+          "CRP>50mg/L": {"metabolism_reduction": "may_decrease", "evidence": "clinical_judgment"}
+        }
+      },
+      "phenotypes": {
+        "PM": {"metabolic_capacity": "极低/无", "prevalence_EUR": "2-5%", "prevalence_EAS": "10-15%"},
+        "IM": {"metabolic_capacity": "降低", "prevalence_EUR": "15-20%", "prevalence_EAS": "35-40%"},
+        "NM": {"metabolic_capacity": "正常", "prevalence_EUR": "50-60%", "prevalence_EAS": "40-50%"},
+        "UM": {"metabolic_capacity": "增强", "prevalence_EUR": "20-30%", "prevalence_EAS": "1-5%"}
+      }
+    }
+  },
+
+  "blood_marker_rules": {
+    "liver": {
+      "dimension": "肝功能",
+      "markers": {
+        "ALT": {
+          "unit": "U/L", "uln": 40, "critical_threshold": 120,
+          "cca_rules": [
+            {"condition": ">3xULN(120U/L)", "gene": "CYP2D6", "effect": "代谢↓50%", "action": "减量并监测", "evidence": "FDA_labels_multiple"},
+            {"condition": ">3xULN(120U/L)", "gene": "CYP2C19", "effect": "代谢↓50%", "action": "减量并监测", "evidence": "FDA_labels_multiple"}
+          ]
+        },
+        "AST": {
+          "unit": "U/L", "uln": 35, "critical_threshold": 105,
+          "cca_rules": [
+            {"condition": ">3xULN(105U/L)", "gene": "CYP2D6", "effect": "代谢↓30-50%", "action": "剂量调整", "evidence": "FDA_label_amitriptyline"},
+            {"condition": ">3xULN(105U/L)", "gene": "CYP2C19", "effect": "代谢↓30-50%", "action": "剂量调整", "evidence": "FDA_label_voriconazole"}
+          ]
+        },
+        "Alb": {
+          "unit": "g/dL", "uln": 4.0, "critical_threshold": 2.5,
+          "cca_rules": [
+            {"condition": "<2.5g/dL", "gene": "CYP2D6", "effect": "游离药物↑，蛋白结合率↓", "action": "考虑减量", "evidence": "FDA_label_multiple"},
+            {"condition": "<2.5g/dL", "gene": "CYP2C19", "effect": "游离药物↑，蛋白结合率↓", "action": "考虑减量", "evidence": "FDA_label_multiple"}
+          ]
+        },
+        "T.Bili": {
+          "unit": "mg/dL", "uln": 1.2, "critical_threshold": 2.0,
+          "cca_rules": [
+            {"condition": ">2mg/dL", "gene": "CYP2D6", "effect": "CYP酶活性↓", "action": "代谢减弱，监测", "evidence": "clinical_judgment"},
+            {"condition": ">2mg/dL", "gene": "CYP2C19", "effect": "CYP酶活性↓", "action": "代谢减弱，监测", "evidence": "clinical_judgment"}
+          ]
+        },
+        "NH3": {
+          "unit": "μg/dL", "uln": 45, "critical_threshold": 67.5,
+          "cca_rules": [
+            {"condition": ">1.5xULN", "gene": "CYP2D6", "effect": "代谢严重受损", "action": "减量或换药", "evidence": "FDA_label_lorazepam"},
+            {"condition": ">1.5xULN", "gene": "CYP2C19", "effect": "代谢严重受损", "action": "减量或换药", "evidence": "clinical_judgment"}
+          ]
+        }
+      }
+    },
+    "renal": {
+      "dimension": "肾功能",
+      "markers": {
+        "CrCl": {
+          "unit": "mL/min", "uln": null, "critical_thresholds": [30, 50],
+          "cca_rules": [
+            {"condition": "<30", "gene": "CYP2D6", "effect": "底物蓄积风险↑", "action": "减量或换药", "evidence": "FDA_label_codeine_tramadol"},
+            {"condition": "<30", "gene": "CYP2C19", "effect": "底物蓄积风险↑", "action": "减量或换药", "evidence": "FDA_label_clopidogrel"},
+            {"condition": "30-50", "gene": "CYP2D6", "effect": "代谢减慢", "action": "减量，监测呼吸抑制", "evidence": "FDA_label_codeine"},
+            {"condition": "30-50", "gene": "CYP2C19", "effect": "代谢减慢", "action": "监测", "evidence": "clinical_judgment"}
+          ]
+        },
+        "eGFR": {
+          "unit": "mL/min/1.73m2", "uln": null, "critical_threshold": 30,
+          "cca_rules": [
+            {"condition": "<30", "gene": "CYP2D6", "effect": "暴露↑", "action": "减量50%", "evidence": "FDA_label_metoprolol_propafenone"},
+            {"condition": "<30", "gene": "CYP2C19", "effect": "PPI暴露↑", "action": "PPI减量", "evidence": "FDA_label_proton_pump_inhibitors"}
+          ]
+        },
+        "HD": {
+          "unit": "状态", "uln": null,
+          "cca_rules": [
+            {"condition": "血液透析中", "gene": "CYP2D6", "effect": "透析清除↑", "action": "透析后给药并减量", "evidence": "FDA_label_tramadol"}
+          ]
+        }
+      }
+    },
+    "coagulation": {
+      "dimension": "凝血功能",
+      "markers": {
+        "INR": {
+          "unit": "", "uln": 1.0, "critical_threshold": 1.5,
+          "cca_rules": [
+            {"condition": ">1.5", "gene": "CYP2D6", "effect": "肝脏合成↓+代谢减弱→出血风险叠加", "action": "监测出血", "evidence": "clinical_judgment"},
+            {"condition": ">1.5", "gene": "CYP2C19", "effect": "肝脏合成↓+代谢改变→出血风险↑", "action": "监测出血", "evidence": "CPIC_warfarin_guideline"}
+          ]
+        },
+        "PT": {
+          "unit": "秒", "uln": null, "critical_threshold": "1.5x control",
+          "cca_rules": [
+            {"condition": ">1.5x control", "gene": "CYP2C19", "effect": "肝脏合成功能↓", "action": "减量", "evidence": "clinical_judgment"}
+          ]
+        }
+      }
+    },
+    "blood": {
+      "dimension": "血常规",
+      "markers": {
+        "Plt": {
+          "unit": "/μL", "uln": 150000, "critical_threshold": 50000,
+          "cca_rules": [
+            {"condition": "<50000/μL", "gene": "CYP2D6", "effect": "出血风险叠加（阿司匹林/NSAIDs）", "action": "监测出血", "evidence": "clinical_judgment"}
+          ]
+        }
+      }
+    },
+    "electrolyte": {
+      "dimension": "电解质",
+      "markers": {
+        "K": {
+          "unit": "mEq/L", "uln": 5.0, "critical_threshold": 5.5,
+          "cca_rules": [
+            {"condition": ">5.5", "gene": "CYP2D6", "effect": "肾功能损害反映→CYP底物排泄↓", "action": "心电图监测", "evidence": "clinical_judgment"},
+            {"condition": ">5.5", "gene": "CYP2C19", "effect": "肾功能损害反映→CYP底物排泄↓", "action": "心电图监测", "evidence": "clinical_judgment"}
+          ]
+        }
+      }
+    },
+    "inflammation": {
+      "dimension": "炎症标记物",
+      "markers": {
+        "CRP": {
+          "unit": "mg/L", "uln": 10, "critical_threshold": 50,
+          "cca_rules": [
+            {"condition": ">50", "gene": "CYP2D6", "effect": "严重炎症抑制CYP酶活性", "action": "代谢可能减弱", "evidence": "clinical_judgment"},
+            {"condition": ">50", "gene": "CYP2C19", "effect": "严重炎症抑制CYP酶活性", "action": "代谢可能减弱", "evidence": "clinical_judgment"}
+          ]
+        }
+      }
+    }
+  },
+
+  "tdm_targets": {
+    "amitriptyline": {
+      "gene": "CYP2D6",
+      "therapeutic_range": "80-200",
+      "unit": "ng/mL",
+      "note": "含活性代谢物去甲替林（总浓度）",
+      "source": "CPIC 2016 TCA指南"
+    },
+    "nortriptyline": {
+      "gene": "CYP2D6",
+      "therapeutic_range": "50-150",
+      "unit": "ng/mL",
+      "note": "去甲替林",
+      "source": "CPIC 2016 TCA指南"
+    },
+    "imipramine": {
+      "gene": "CYP2D6",
+      "therapeutic_range": "150-250",
+      "unit": "ng/mL",
+      "note": "含活性代谢物去甲丙米嗪",
+      "source": "CPIC 2016 TCA指南"
+    },
+    "clomipramine": {
+      "gene": "CYP2D6",
+      "therapeutic_range": "250-400",
+      "unit": "ng/mL",
+      "note": "含活性代谢物去甲氯米帕明",
+      "source": "CPIC 2016 TCA指南"
+    },
+    "desipramine": {
+      "gene": "CYP2D6",
+      "therapeutic_range": "100-300",
+      "unit": "ng/mL",
+      "note": "纯CYP2D6底物，无活性代谢物",
+      "source": "CPIC 2016 TCA指南"
+    },
+    "voriconazole": {
+      "gene": "CYP2C19",
+      "therapeutic_range": "1-5",
+      "unit": "mg/L",
+      "note": "伏立康唑",
+      "source": "CPIC 2019 Morrison et al., CPT 2019;106:1178-1189"
+    },
+    "clopidogrel": {
+      "gene": "CYP2C19",
+      "therapeutic_range": null,
+      "unit": "platelet_reactivity",
+      "note": "血小板反应性监测；CYP2C19 PM患者血小板抑制不足",
+      "source": "CPIC 2022 clopidogrel Linton et al., CPT 2022"
+    }
+  },
+
+  "inference_chains": {
+    "description": "典型多跳推理链 - 从血液标记物异常到用药建议的完整路径",
+    "chains": [
+      {
+        "chain_id": "CCA-LIVER-ALT-DRUG",
+        "description": "肝功能异常 + CYP底物 → 剂量调整",
+        "steps": [
+          {"node": "血液标记物", "type": "input", "field": "ALT", "condition": ">3xULN"},
+          {"node": "CYP代谢能力", "type": "rule", "rule": "CCA-D6-LIVER-ALT-3X / CCA-C19-LIVER-ALT-3X", "effect": "代谢↓50%"},
+          {"node": "药物蓄积风险", "type": "inference", "logic": "代谢↓50% + 原剂量 → 暴露量↑"},
+          {"node": "用药建议", "type": "output", "action": "减半剂量并密切监测"}
+        ]
+      },
+      {
+        "chain_id": "CCA-RENAL-CRCL-DRUG",
+        "description": "肾功能不全 + CYP底物 → 蓄积风险 + 剂量调整",
+        "steps": [
+          {"node": "血液标记物", "type": "input", "field": "CrCl", "condition": "<30mL/min"},
+          {"node": "CYP代谢能力", "type": "rule", "rule": "CCA-D6-RENAL-CRCL-30 / CCA-C19-RENAL-CRCL-30", "effect": "底物蓄积风险↑"},
+          {"node": "排泄减少", "type": "inference", "logic": "CrCl<30 → 肾脏排泄↓ + 代谢↓ → 双重蓄积"},
+          {"node": "用药建议", "type": "output", "action": "减量或换用非CYP底物"}
+        ]
+      },
+      {
+        "chain_id": "CCA-COAG-INR-ANTICOAG",
+        "description": "凝血功能异常 + 抗凝药 → 出血风险叠加",
+        "steps": [
+          {"node": "血液标记物", "type": "input", "field": "INR", "condition": ">1.5"},
+          {"node": "肝脏合成功能", "type": "rule", "rule": "INR升高=肝脏合成功能下降", "effect": "CYP代谢↓"},
+          {"node": "出血风险", "type": "inference", "logic": "INR↑ + CYP底物抗凝药 → 出血风险叠加"},
+          {"node": "用药建议", "type": "output", "action": "密切监测出血体征，必要时减量"}
+        ]
+      }
+    ]
+  }
+}

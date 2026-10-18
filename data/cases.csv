@@ -1,0 +1,101 @@
+﻿case_id,diagnosis,current_meds,past_signals,population,gene,actual_phenotype,actual_response,expected_output,notes,case_type
+PGx-001,冠心病支架术后,氯吡格雷75mg QD,可待因镇痛无效（可待因为CYP2D6 PM型标准信号）,东亚,,,,强烈建议检测+推荐替代药,可待因镇痛无效为CYP2D6 PM型标准信号，氯吡格雷为CYP2C19 PM型需换药,curated
+PGx-002,广泛性焦虑症,文拉法辛75mg BID,无,欧洲,,,,建议检测，文拉法辛可能对CYP2D6 PM疗效差,文拉法辛主要经CYP2D6代谢（次要CYP2C19），需关注CYP2D6,curated
+PGx-003,双相情感障碍,文拉法辛+帕罗西汀,帕罗西汀导致恶心（帕罗西汀为CYP2D6强抑制剂+底物，剂量相关ADR）,欧洲,,,,换药+推荐替代药,帕罗西汀为CYP2D6强抑制剂联合文拉法辛可致5-HT综合征；文拉法辛为CYP2D6底物；新发现PM可能使原有ADR加重,curated
+PGx-004,抑郁症,阿米替林25mg BID,无,东亚,,,,可选项，建议检测,CYP2D6为主要代谢酶（主要途径），TCA为CYP2D6+CYP2C19双基因底物，当前剂量低但PM型可能导致ADR,curated
+PGx-005,可待因,可待因30mg,可待因镇痛无效（可待因为CYP2D6 PM型标准信号）,东亚,,,,强烈建议检测,可待因镇痛无效为CYP2D6 PM型标准信号，CYP2C19作用次要,curated
+PGx-006,强迫症,氯米帕明;舍曲林,无,欧洲,,,,可选项，建议检测,氯米帕明主要经CYP2D6代谢（部分经CYP2C19）；建议检测CYP2D6+CYP2C19双基因,curated
+PGx-007,抑郁症,TCA类,低剂量TCA出现明显抗胆碱能副作用（此为CYP2D6 PM型强信号）,东亚,,,,换药,CYP2D6 PM TCA蓄积为强信号；TCA为CYP2D6+CYP2C19双基因底物，需同时检测双基因,curated
+PGx-008,心脏神经症,舍曲林,无,欧洲,,,,可选项，慎选,舍曲林主要经CYP2C19代谢（CYP2D6为次要途径）；CYP2D6 PM影响相对较小,curated
+PGx-009,心脏神经症,米氮平,无,东亚,,,,可选项，基因影响小,米氮平主要经CYP1A2/UGT1A4/CYP3A4代谢（不是CYP2D6）；CYP2D6影响极小,curated
+PGx-010,他莫昔芬,替格瑞洛,他莫昔芬代谢产物不足-他莫昔芬为CYP2D6 PM强信号;,东亚,,,,强烈建议检测,他莫昔芬代谢产物（Endoxifen）不足为CYP2D6 PM强信号；CYP2C19非他莫昔芬主要代谢酶，建议换芳香化酶抑制剂,curated
+PGx-011,社交焦虑症,奥氮平,SSRIs/SNRIs初始剂量即出现显著副作用（CPIC 2023 SSRI/SNRI指南(Bousman)）,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-奥氮平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-012,慢性疼痛,美托洛尔,无,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-美托洛尔：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-013,双相情感障碍,兰索拉唑,东亚人群PPI或SSRI疗效个体差异大（PharmGKB/CPIC 2022）,拉美裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-兰索拉唑：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-014,社交焦虑症,可待因,TCA标准剂量完全无效（快速代谢型）（CPIC 2016 TCA指南(Hicks)）,拉美裔,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-可待因：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-015,双相情感障碍,奋乃静,无,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-奋乃静：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-016,冠心病支架术后,阿戈美拉汀,无,东亚,CYP2C19,NM,NM型反应：标准剂量即可,NM型-阿戈美拉汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-017,创伤后应激障碍,埃索美拉唑,环磷酰胺化疗疗效差（PharmGKB）,欧洲,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-埃索美拉唑：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-018,难治性幽门螺杆菌感染,氯吡格雷,无,非洲裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-氯吡格雷：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-019,双相情感障碍,奋乃静,无,欧洲,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-奋乃静：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-020,冠心病支架术后,可待因,利培酮锥体外系反应或PRL显著升高（DPWG精神药物指南）,东亚,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-可待因：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-021,社交焦虑症,多塞平,无,东亚,CYP2C19,NM,NM型反应：标准剂量即可,NM型-多塞平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-022,精神分裂症,丙米嗪,无,拉美裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-丙米嗪：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-023,慢性疼痛,文拉法辛,TCA标准剂量完全无效（快速代谢型）（CPIC 2016 TCA指南(Hicks)）,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-文拉法辛：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-024,社交焦虑症,可待因,无,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-可待因：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-025,冠心病支架术后,曲唑酮,曲马多癫痫发作或5-HT综合征（CPIC 2021血小板指南(Crews)）,东亚,CYP2D6,NM,NM型反应：标准剂量即可,NM型-曲唑酮：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-026,广泛性焦虑症,地西泮,无,非洲裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-地西泮：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-027,难治性幽门螺杆菌感染,艾司西酞普兰,无,非洲裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-艾司西酞普兰：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-028,高血压,阿托西汀,无,拉美裔,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-阿托西汀：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-029,广泛性焦虑症,地昔帕明,可待因镇痛完全无效或严重不良反应（CPIC 2021血小板指南(Crews)）,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-地昔帕明：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-030,惊恐障碍,奥美拉唑,无,非洲裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-奥美拉唑：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-031,广泛性焦虑症,氟伏沙明,无,东亚,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟伏沙明：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-032,创伤后应激障碍,喹硫平,伏立康唑治疗窗异常（CPIC 2019伏立康唑指南）,东亚,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-喹硫平：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-033,冠心病支架术后,丙米嗪,无,东亚,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-丙米嗪：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-034,失眠症,舍曲林,地西泮常规剂量出现过度镇静（PharmGKB）,拉美裔,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-舍曲林：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-035,强迫症,曲唑酮,阿托西汀血药浓度异常升高（CPIC 2019 ADHD指南(Brown)）,非洲裔,CYP2D6,UM,UM型反应：密切监测,建议检测基因型；曲唑酮可能需加量或换药,合成病例（seed=42）,synthetic
+PGx-036,广泛性焦虑症,兰索拉唑,标准剂量舍曲林疗效不佳（CPIC 2023 SSRI/SNRI指南）,拉美裔,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-兰索拉唑：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-037,双相情感障碍,氟哌啶醇,利培酮锥体外系反应或PRL显著升高（DPWG精神药物指南）,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟哌啶醇：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-038,社交焦虑症,阿托西汀,无,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-阿托西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-039,广泛性焦虑症,地西泮,无,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-地西泮：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-040,双相情感障碍,奥美拉唑,无,拉美裔,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-奥美拉唑：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-041,双相情感障碍,氟西汀,无,非洲裔,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-氟西汀：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-042,社交焦虑症,奥氮平,标准剂量舍曲林疗效不佳（CPIC 2023 SSRI/SNRI指南）,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-奥氮平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-043,难治性幽门螺杆菌感染,氟西汀,SSRIs/SNRIs初始剂量即出现显著副作用（CPIC 2023 SSRI/SNRI指南(Bousman)）,东亚,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-044,社交焦虑症,度洛西汀,利培酮锥体外系反应或PRL显著升高（DPWG精神药物指南）,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-度洛西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-045,强迫症,帕罗西汀,低剂量TCA出现明显抗胆碱能副作用（CPIC 2016 TCA指南）,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-帕罗西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-046,抑郁症,文拉法辛,无,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-文拉法辛：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-047,冠心病支架术后,雷贝拉唑,无,欧洲,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-雷贝拉唑：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-048,难治性幽门螺杆菌感染,苯妥英,无,东亚,CYP2C19,NM,NM型反应：标准剂量即可,NM型-苯妥英：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-049,强迫症,喹硫平,伏立康唑治疗窗异常（CPIC 2019伏立康唑指南）,非洲裔,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-喹硫平：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-050,高血压,多塞平,无,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-多塞平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-051,失眠症,奥氮平,无,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-奥氮平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-052,双相情感障碍,氟西汀,无,拉美裔,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-氟西汀：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-053,胃食管反流病,氟伏沙明,奥美拉唑标准剂量抑酸过度（PharmGKB/FDA label）,拉美裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-氟伏沙明：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-054,抑郁症,泮托拉唑,地西泮常规剂量出现过度镇静（PharmGKB）,东亚,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-泮托拉唑：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-055,广泛性焦虑症,昂丹司琼,无,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-昂丹司琼：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-056,强迫症,他莫昔芬,帕罗西汀血药浓度极低或疗效差（Guzey & Spigset 2006）,拉美裔,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-他莫昔芬：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-057,慢性疼痛,阿米替林,无,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-阿米替林：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-058,失眠症,多塞平,氯吡格雷抵抗或支架内血栓（CPIC 2022血小板指南(Crews)）,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-多塞平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-059,抑郁症,他莫昔芬,无,东亚,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-他莫昔芬：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-060,广泛性焦虑症,美托洛尔,昂丹司琼止吐效果差（CPIC 2017昂丹司琼/托烷司琼指南(Bell)）,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-美托洛尔：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-061,抑郁症,氯米帕明,东亚人群PPI或SSRI疗效个体差异大（PharmGKB/CPIC 2022）,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-氯米帕明：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-062,广泛性焦虑症,兰索拉唑,无,东亚,CYP2C19,NM,NM型反应：标准剂量即可,NM型-兰索拉唑：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-063,社交焦虑症,氟伏沙明,标准剂量舍曲林疗效不佳（CPIC 2023 SSRI/SNRI指南）,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-氟伏沙明：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-064,精神分裂症,他莫昔芬,TCA标准剂量完全无效（快速代谢型）（CPIC 2016 TCA指南(Hicks)）,拉美裔,CYP2D6,PM,PM型反应：绝经后考虑换芳香化酶抑制剂,建议检测基因型；他莫昔芬可能需减量或换药,合成病例（seed=42）,synthetic
+PGx-065,广泛性焦虑症,环磷酰胺,奥美拉唑标准剂量抑酸过度（PharmGKB/FDA label）,东亚,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-环磷酰胺：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-066,社交焦虑症,奥氮平,伏立康唑治疗窗异常（CPIC 2019伏立康唑指南）,东亚,CYP2C19,NM,NM型反应：标准剂量即可,NM型-奥氮平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-067,广泛性焦虑症,苯妥英,伏立康唑治疗窗异常（CPIC 2019伏立康唑指南）,东亚,CYP2C19,NM,NM型反应：标准剂量即可,NM型-苯妥英：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-068,难治性幽门螺杆菌感染,沃替西汀,TCA标准剂量抗抑郁疗效差且ADR明显（CPIC 2016 TCA指南(Hicks)）,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-沃替西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-069,惊恐障碍,氟伏沙明,SSRIs/SNRIs初始剂量即出现显著副作用（CPIC 2023 SSRI/SNRI指南(Bousman)）,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟伏沙明：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-070,强迫症,兰索拉唑,氯吡格雷抵抗或支架内血栓（CPIC 2022血小板指南(Crews)）,欧洲,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-兰索拉唑：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-071,广泛性焦虑症,奥氮平,东亚人群PPI或SSRI疗效个体差异大（PharmGKB/CPIC 2022）,拉美裔,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-奥氮平：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-072,胃食管反流病,奋乃静,可待因镇痛完全无效或严重不良反应（CPIC 2021血小板指南(Crews)）,东亚,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-奋乃静：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-073,强迫症,氟西汀,无,东亚,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-氟西汀：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-074,抑郁症,环磷酰胺,无,东亚,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-环磷酰胺：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-075,冠心病支架术后,沃替西汀,无,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-沃替西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-076,胃食管反流病,华法林,无,非洲裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-华法林：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-077,强迫症,昂丹司琼,曲马多癫痫发作或5-HT综合征（CPIC 2021血小板指南(Crews)）,东亚,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-昂丹司琼：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-078,胃食管反流病,帕罗西汀,无,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-帕罗西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-079,惊恐障碍,文拉法辛,无,东亚,CYP2C19,PM,PM型反应：无需调整（CYP2D6底物）,建议检测基因型；文拉法辛可能需减量或换药,合成病例（seed=42）,synthetic
+PGx-080,强迫症,文拉法辛,环磷酰胺化疗疗效差（PharmGKB）,拉美裔,CYP2C19,UM,UM型反应：无需调整,建议检测基因型；文拉法辛可能需加量或换药,合成病例（seed=42）,synthetic
+PGx-081,精神分裂症,地西泮,无,拉美裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-地西泮：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-082,创伤后应激障碍,多塞平,无,非洲裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-多塞平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-083,精神分裂症,苯妥英,无,欧洲,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-苯妥英：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-084,惊恐障碍,氟西汀,无,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-085,失眠症,华法林,东亚人群PPI或SSRI疗效个体差异大（PharmGKB/CPIC 2022）,欧洲,CYP2C19,NM,NM型反应：标准剂量即可,NM型-华法林：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-086,高血压,他莫昔芬,无,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-他莫昔芬：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-087,社交焦虑症,沃替西汀,低剂量TCA即出现明显抗胆碱能副作用（CPIC 2016 TCA指南(Hicks)）,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-沃替西汀：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-088,精神分裂症,华法林,伏立康唑治疗窗异常（CPIC 2019伏立康唑指南）,非洲裔,CYP2C19,NM,NM型反应：标准剂量即可,NM型-华法林：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-089,胃食管反流病,氟哌啶醇,他莫昔芬治疗期间乳腺癌复发（绝经后）（CPIC 2018他莫昔芬指南(Goetz)）,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟哌啶醇：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-090,慢性疼痛,地西泮,PPI标准剂量根除幽门螺杆菌失败（CPIC 2022 PPI指南）,东亚,CYP2C19,PM,PM型反应：减量（次要途径）,建议检测基因型；地西泮可能需减量或换药,合成病例（seed=42）,synthetic
+PGx-091,惊恐障碍,美托洛尔,帕罗西汀血药浓度极低或疗效差（Guzey & Spigset 2006）,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-美托洛尔：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-092,难治性幽门螺杆菌感染,奥氮平,奥美拉唑标准剂量抑酸过度（PharmGKB/FDA label）,拉美裔,CYP2C19,IM,IM型反应：可能需要监测或微调剂量,IM型-奥氮平：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-093,广泛性焦虑症,曲马多,他莫昔芬治疗期间乳腺癌复发（绝经后）（CPIC 2018他莫昔芬指南(Goetz)）,非洲裔,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-曲马多：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-094,创伤后应激障碍,氟哌啶醇,阿托西汀血药浓度异常升高（CPIC 2019 ADHD指南(Brown)）,欧洲,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟哌啶醇：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-095,高血压,曲马多,无,东亚,CYP2D6,NM,NM型反应：标准剂量即可,NM型-曲马多：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-096,慢性疼痛,氟伏沙明,TCA标准剂量完全无效（快速代谢型）（CPIC 2016 TCA指南(Hicks)）,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-氟伏沙明：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-097,失眠症,利培酮,昂丹司琼止吐效果差（CPIC 2017昂丹司琼/托烷司琼指南(Bell)）,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-利培酮：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-098,失眠症,多塞平,无,拉美裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-多塞平：标准剂量即可,合成病例（seed=42）,synthetic
+PGx-099,慢性疼痛,他莫昔芬,阿托西汀血药浓度异常升高（CPIC 2019 ADHD指南(Brown)）,东亚,CYP2D6,IM,IM型反应：可能需要监测或微调剂量,IM型-他莫昔芬：标准剂量+监测,合成病例（seed=42）,synthetic
+PGx-100,难治性幽门螺杆菌感染,他莫昔芬,无,非洲裔,CYP2D6,NM,NM型反应：标准剂量即可,NM型-他莫昔芬：标准剂量即可,合成病例（seed=42）,synthetic

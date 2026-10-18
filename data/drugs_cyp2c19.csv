@@ -1,0 +1,27 @@
+﻿drug_name,cyp2c19_effect,pm_action,um_action,recommendation_grade,evidence,alternatives,source
+艾司西酞普兰,substrate,起始剂量减50%或换用非CYP2C19药物,换用非CYP2C19药物或增加剂量,B,Strong,舍曲林/文拉法辛,CPIC 2023 SSRI/SNRI指南
+西酞普兰,substrate,减量（最大20mg/日）或换药,换用非CYP2C19药物或增加剂量,B,Strong,舍曲林/文拉法辛,CPIC 2023 SSRI/SNRI指南 / FDA label
+舍曲林,substrate,维持常规剂量（影响小）,疗效不足时考虑换药或加量,B,Moderate,艾司西酞普兰/米氮平,CPIC 2023 SSRI/SNRI指南
+氟伏沙明,substrate_and_inhibitor,不适用（为CYP2C19强抑制剂，非主要底物）,不适用,C,Strong,舍曲林,CPIC 2023 / FDA label
+氟西汀,substrate,密切监测（活性代谢物半衰期长），建议换非CYP2C19药物,疗效不足时增加剂量,C,Moderate,舍曲林/艾司西酞普兰,CPIC 2023 SSRI/SNRI指南 / FDA label
+氯米帕明,substrate,避免或减量50%并TDM,换用SSRI或增加剂量,B,Moderate,艾司西酞普兰/舍曲林,CPIC 2016 TCA指南
+阿米替林,substrate,避免或减量50%并TDM,换药或增加剂量并TDM,B,Moderate,米氮平/舍曲林,CPIC 2016 TCA指南
+丙米嗪,substrate,避免或减量50%并TDM,换药或增加剂量并TDM,B,Moderate,米氮平,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）"
+多塞平,substrate,避免或减量50%并TDM,换药或增加剂量并TDM,B,Moderate,米氮平,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）"
+氯吡格雷,prodrug,换用普拉格雷或替格瑞洛,常规剂量（活化增强）,A,Strong,普拉格雷/替格瑞洛,CPIC 2022氯吡格雷指南
+奥美拉唑,substrate,可减量（抑酸增强）,疗效不足时增加剂量,C,Moderate,泮托拉唑/雷贝拉唑,CPIC / FDA label
+兰索拉唑,substrate,可减量,疗效不足时增加剂量,C,Moderate,泮托拉唑/雷贝拉唑,CPIC / FDA label
+埃索美拉唑,substrate,可减量,疗效不足时增加剂量,C,Moderate,泮托拉唑/雷贝拉唑,CPIC / FDA label
+泮托拉唑,substrate,影响小，维持剂量,影响小，维持剂量,C,Low,雷贝拉唑,PharmGKB / FDA label
+雷贝拉唑,non_substrate,无需调整（主要非酶代谢）,无需调整,D,None,-,PharmGKB / FDA label
+伏立康唑,substrate_and_inhibitor,减量并监测血药浓度,增加剂量或换用其他抗真菌药,A,Strong,泊沙康唑/艾沙康唑,CPIC 2019伏立康唑指南
+地西泮,substrate,减量（次要途径）,影响小,C,Low,劳拉西泮/奥沙西泮,PharmGKB
+苯妥英,substrate,监测血药浓度,影响小,C,Low,左乙拉西坦,PharmGKB / FDA label（注意：丙戊酸为CYP2C19抑制剂，会进一步影响苯妥英代谢，不能作简单替代）
+环磷酰胺,prodrug,疗效可能降低（次要途径）,影响小,C,Low,异环磷酰胺,PharmGKB
+华法林,substrate,影响小（主要CYP2C9）,影响小,C,Low,-,PharmGKB / FDA label
+帕罗西汀,non_substrate,无需调整（CYP2D6底物）,无需调整,D,None,-,PharmGKB
+文拉法辛,non_substrate,无需调整（CYP2D6底物）,无需调整,D,None,-,PharmGKB
+米氮平,non_substrate,无需调整（CYP2D6/1A2/3A4）,无需调整,D,None,-,PharmGKB
+喹硫平,non_substrate,无需调整（CYP3A4底物）,无需调整,D,None,-,PharmGKB
+奥氮平,non_substrate,无需调整（CYP1A2/UGT）,无需调整,D,None,-,PharmGKB
+阿戈美拉汀,non_substrate,无需调整（CYP1A2底物）,无需调整,D,None,-,PharmGKB / FDA label

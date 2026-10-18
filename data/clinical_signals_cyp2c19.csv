@@ -1,0 +1,11 @@
+signal_name,gene,target_phenotype,effect_direction,strength,context,interpretation,test_recommendation,citation
+氯吡格雷抵抗或支架内血栓,CYP2C19,PM,no_effect,强,标准剂量氯吡格雷下仍发生心肌梗死或支架内血栓,提示CYP2C19 PM型：前药活化不足，活性代谢物减少,强推荐（CPIC 2022明确建议基因检测）,CPIC 2022血小板指南(Crews)
+PPI标准剂量根除幽门螺杆菌失败,CYP2C19,UM,too_strong,强,标准剂量PPI三联疗法根除Hp失败或抑酸不足,提示CYP2C19快代谢型(UM/RM)：PPI代谢过快,推荐（可考虑基因检测指导PPI剂量）,CPIC 2022 PPI指南
+伏立康唑治疗窗异常,CYP2C19,Both,low_effect,强,伏立康唑浓度过高致肝毒或视觉异常，或过低致抗真菌失败,提示CYP2C19 PM(浓度高)或UM(浓度低),强烈推荐（伏立康唑治疗窗口窄，CPIC建议PM/UM均需检测）,CPIC 2019伏立康唑指南
+艾司西酞普兰或西酞普兰标准剂量QT延长,CYP2C19,PM,no_effect,中,标准剂量SSRI出现QTc延长或疗效差,提示CYP2C19 PM(蓄积致QT)或UM(浓度低无效),推荐（SSRI对CYP2C19 PM有明确剂量建议）,FDA label / CPIC 2023
+低剂量TCA出现明显抗胆碱能副作用,CYP2C19,PM,no_effect,中,低剂量阿米替林或氯米帕明即出现口干、便秘、尿潴留,提示CYP2C19 PM型：母药蓄积,推荐（CYP2C19显著影响TCA血药浓度）,CPIC 2016 TCA指南
+标准剂量舍曲林疗效不佳,CYP2C19,UM,too_strong,弱,足量足疗程6-8周无明显改善,可能CYP2C19 UM型：代谢加快,弱推荐（证据强度有限）,CPIC 2023 SSRI/SNRI指南
+地西泮常规剂量出现过度镇静,CYP2C19,PM,no_effect,弱,常规剂量地西泮出现明显嗜睡或共济失调,提示CYP2C19 PM型：清除减慢,弱推荐（CYP2C19不是地西泮主要代谢酶）,PharmGKB
+奥美拉唑标准剂量抑酸过度,CYP2C19,PM,no_effect,弱,标准剂量奥美拉唑胃内pH过度升高,提示CYP2C19 PM型：药物蓄积,弱推荐（PPI主要代谢途径有争议）,PharmGKB/FDA label
+环磷酰胺化疗疗效差,CYP2C19,PM,low_effect,弱,标准方案环磷酰胺肿瘤缓解不佳,可能CYP2C19 PM型：前药活化不足(次要途径),不推荐（CYP2C19仅为次要途径，非主要决定因素）,PharmGKB
+东亚人群PPI或SSRI疗效个体差异大,CYP2C19,Both,low_effect,弱,东亚患者对PPI或SSRI反应差异显著,提示CYP2C19*2/*3高频致PM/IM比例高,推荐（东亚人群高频突变，群体筛查意义大）,PharmGKB/CPIC 2022

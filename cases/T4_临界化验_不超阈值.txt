@@ -1,0 +1,4 @@
+主诉：体检发现肝功能轻度异常
+诊断：非酒精性脂肪肝
+用药：无
+化验：ALT=80 U/L，AST=60 U/L，Cr=0.9 mg/dL，CrCl=88 mL/min，eGFR=98 mL/min/1.73m²，Alb=4.0 g/dL，T.Bili=1.0 mg/dL，NH3=35 μg/dL，INR=1.0，PT=12秒，Plt=220000 /μL，K=4.2 mEq/L，CRP=6 mg/L

@@ -1,0 +1,18 @@
+病例 ID: T23b_DPWG_PM_Clean
+
+主诉：精神分裂症10年，复发伴EPS 6周
+
+诊断：偏执型精神分裂症
+
+用药：氟哌啶醇，利培酮，苯海索
+
+人群：欧洲
+性别：男
+年龄：52
+
+基因型：CYP2D6 *4/*4
+表型：PM
+
+化验：ALT=30 U/L，AST=25 U/L，Cr=0.95 mg/dL，CrCl=88 mL/min，eGFR=92 mL/min/1.73m²，Alb=4.0 g/dL，T.Bili=0.6 mg/dL，NH3=28 μg/dL，INR=1.0，PT=12秒，Plt=240000 /μL，K=4.3 mEq/L，CRP=3 mg/L
+
+临床信号：CYP2D6 PM型；EPS评分SAS=18 DIEPSS=12 BARS=3；震颤肌强直面具脸运动迟缓

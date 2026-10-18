@@ -1,0 +1,199 @@
+﻿rule_id,rule_type,gene,drug_name,phenotype,population,content,source,grade,evidence
+D6-DRUG-001,drug,CYP2D6,文拉法辛,,,对于使用 文拉法辛 的患者，CYP2D6 表型PM 时：考虑换用非CYP2D6代谢抗抑郁药；UM 时：无需调整（证据不足，无推荐）。推荐等级：C (Optional)。替代药物：米氮平/米那普仑,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）",C,Optional
+D6-DRUG-002,drug,CYP2D6,帕罗西汀,,,对于使用 帕罗西汀 的患者，CYP2D6 表型PM 时：起始剂量减50%并缓慢滴定或换药；UM 时：换用非CYP2D6代谢药物。推荐等级：B (Moderate)。替代药物：舍曲林/艾司西酞普兰,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）",B,Moderate
+D6-DRUG-003,drug,CYP2D6,氟伏沙明,,,对于使用 氟伏沙明 的患者，CYP2D6 表型PM 时：起始剂量减25-50%并缓慢滴定或换药；UM 时：无数据（无推荐）。推荐等级：C (Moderate)。替代药物：舍曲林/艾司西酞普兰,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）",C,Moderate
+D6-DRUG-004,drug,CYP2D6,氟西汀,,,对于使用 氟西汀 的患者，CYP2D6 表型PM 时：避免或密切监测+TDM（活性代谢物诺氟西汀半衰期7-15天，PM中母药蓄积）；UM 时：无CPIC推荐。推荐等级：B (Moderate)。替代药物：舍曲林/艾司西酞普兰,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）",B,Moderate
+D6-DRUG-005,drug,CYP2D6,阿米替林,,,对于使用 阿米替林 的患者，CYP2D6 表型PM 时：避免使用；若必须则减量50%并TDM；UM 时：避免使用；若必须则加量并TDM。推荐等级：B (Strong)。替代药物：米氮平/安非他酮,"CPIC 2016 TCA指南（Hicks et al., Clin Pharmacol Ther 2017;102:37-44）",B,Strong
+D6-DRUG-006,drug,CYP2D6,氯米帕明,,,对于使用 氯米帕明 的患者，CYP2D6 表型PM 时：避免或减量50%并TDM；UM 时：避免或加量并TDM。推荐等级：B (Moderate)。替代药物：艾司西酞普兰/舍曲林,CPIC 2016 TCA指南（由阿米替林外推）,B,Moderate
+D6-DRUG-007,drug,CYP2D6,去甲替林,,,对于使用 去甲替林 的患者，CYP2D6 表型PM 时：避免使用；减量50%并TDM；UM 时：避免使用；加量并TDM。推荐等级：B (Strong)。替代药物：米氮平/舍曲林,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）",B,Strong
+D6-DRUG-008,drug,CYP2D6,地昔帕明,,,对于使用 地昔帕明 的患者，CYP2D6 表型PM 时：避免或减量50%并TDM；UM 时：避免或加量并TDM。推荐等级：C (Moderate)。替代药物：米氮平,"CPIC 2016 TCA指南（Hicks et al., CPT 2017;102:37-44）",C,Moderate
+D6-DRUG-009,drug,CYP2D6,多塞平,,,对于使用 多塞平 的患者，CYP2D6 表型PM 时：避免或减量50%并TDM；UM 时：避免或加量并TDM。推荐等级：C (Moderate)。替代药物：米氮平,CPIC 2016 TCA指南（外推）,C,Moderate
+D6-DRUG-010,drug,CYP2D6,丙米嗪,,,对于使用 丙米嗪 的患者，CYP2D6 表型PM 时：避免或减量50%并TDM；UM 时：避免或加量并TDM。推荐等级：C (Moderate)。替代药物：米氮平,CPIC 2016 TCA指南（外推）,C,Moderate
+D6-DRUG-011,drug,CYP2D6,曲唑酮,,,对于使用 曲唑酮 的患者，CYP2D6 表型PM 时：减量（CYP2D6为次要途径）；UM 时：密切监测。推荐等级：C (Low)。替代药物：米氮平/喹硫平,PharmGKB（无CPIC/DPWG的CYP2D6剂量指南）,C,Low
+D6-DRUG-012,drug,CYP2D6,度洛西汀,,,对于使用 度洛西汀 的患者，CYP2D6 表型PM 时：减量或换药；UM 时：密切监测。推荐等级：C (Low)。替代药物：米那普仑/米氮平,CPIC 2023 SRI指南 / DPWG / FDA标签,C,Low
+D6-DRUG-013,drug,CYP2D6,沃替西汀,,,对于使用 沃替西汀 的患者，CYP2D6 表型PM 时：起始剂量减50%（如5mg）并限最大10mg或换药；UM 时：换非CYP2D6药；若用可加量50%。推荐等级：B (Moderate)。替代药物：艾司西酞普兰/舍曲林,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）",B,Moderate
+D6-DRUG-014,drug,CYP2D6,可待因,,,对于使用 可待因 的患者，CYP2D6 表型PM 时：避免使用（镇痛无效）；UM 时：避免使用（中毒风险）。推荐等级：A (Strong)。替代药物：吗啡/氢吗啡酮,"CPIC 2021 阿片类指南（Crews et al., Clin Pharmacol Ther 2021）",A,Strong
+D6-DRUG-015,drug,CYP2D6,曲马多,,,对于使用 曲马多 的患者，CYP2D6 表型PM 时：避免使用（镇痛减弱）；UM 时：避免使用（中毒风险）。推荐等级：A (Strong)。替代药物：吗啡/布洛芬,"CPIC 2021 阿片类指南（Crews et al., Clin Pharmacol Ther 2021）",A,Strong
+D6-DRUG-016,drug,CYP2D6,奥氮平,,,对于使用 奥氮平 的患者，CYP2D6 表型PM 时：无需调整（非CYP2D6底物）；UM 时：无需调整。推荐等级：D ()。替代药物：非CYP2D6底物,PharmGKB/FDA标签（主要CYP1A2/UGT1A4/FMO3）,D,
+D6-DRUG-017,drug,CYP2D6,氟哌啶醇,,,对于使用 氟哌啶醇 的患者，CYP2D6 表型PM 时：减量；UM 时：密切监测。推荐等级：C (Low)。替代药物：奥氮平/喹硫平,DPWG指南 / PharmGKB（CYP2D6为次要途径）,C,Low
+D6-DRUG-018,drug,CYP2D6,利培酮,,,对于使用 利培酮 的患者，CYP2D6 表型PM 时：减量或换用帕利哌酮；UM 时：密切监测。推荐等级：B (Moderate)。替代药物：帕利哌酮/奥氮平,DPWG指南 / PharmGKB（CYP2D6为主要途径）,B,Moderate
+D6-DRUG-019,drug,CYP2D6,阿立哌唑,,,对于使用 阿立哌唑 的患者，CYP2D6 表型PM 时：减量至常规剂量的50%；UM 时：密切监测或换药。推荐等级：B (Moderate)。替代药物：奥氮平/喹硫平,FDA药品标签 / DPWG,B,Moderate
+D6-DRUG-020,drug,CYP2D6,奋乃静,,,对于使用 奋乃静 的患者，CYP2D6 表型PM 时：减量；UM 时：密切监测。推荐等级：C (Low)。替代药物：奥氮平/喹硫平,DPWG指南,C,Low
+D6-DRUG-021,drug,CYP2D6,阿托西汀,,,对于使用 阿托西汀 的患者，CYP2D6 表型PM 时：起始剂量减50%并缓慢滴定；UM 时：标准剂量；疗效不足再加量。推荐等级：A (Strong)。替代药物：哌甲酯/胍法辛,"CPIC 2019 阿托西汀指南（Brown et al., Clin Pharmacol Ther 2019;106:94-102）",A,Strong
+D6-DRUG-022,drug,CYP2D6,昂丹司琼,,,对于使用 昂丹司琼 的患者，CYP2D6 表型PM 时：无需减量（疗效可能增强）；UM 时：换非CYP2D6止吐药（如格拉司琼）。推荐等级：B (Moderate)。替代药物：格拉司琼,"CPIC 2017 昂丹司琼/托烷司琼指南（Bell et al., Clin Pharmacol Ther 2017;102:213-218）",B,Moderate
+D6-DRUG-023,drug,CYP2D6,他莫昔芬,,,对于使用 他莫昔芬 的患者，CYP2D6 表型PM 时：绝经后考虑换芳香化酶抑制剂；UM 时：无需调整。推荐等级：B (Moderate)。替代药物：来曲唑/阿那曲唑,"CPIC 2018 他莫昔芬指南（Goetz et al., Clin Pharmacol Ther 2018;103:770-777）",B,Moderate
+D6-DRUG-024,drug,CYP2D6,美托洛尔,,,对于使用 美托洛尔 的患者，CYP2D6 表型PM 时：减量并监测心率；UM 时：必要时加量。推荐等级：B (Moderate)。替代药物：阿替洛尔/比索洛尔,DPWG指南,B,Moderate
+C19-DRUG-001,drug,CYP2C19,艾司西酞普兰,,,对于使用 艾司西酞普兰 的患者，CYP2C19 表型PM 时：起始剂量减50%或换用非CYP2C19药物；UM 时：换用非CYP2C19药物或增加剂量。推荐等级：B (Strong)。替代药物：舍曲林/文拉法辛,CPIC 2023 SSRI/SNRI指南,B,Strong
+C19-DRUG-002,drug,CYP2C19,西酞普兰,,,对于使用 西酞普兰 的患者，CYP2C19 表型PM 时：减量（最大20mg/日）或换药；UM 时：换用非CYP2C19药物或增加剂量。推荐等级：B (Strong)。替代药物：舍曲林/文拉法辛,CPIC 2023 SSRI/SNRI指南 / FDA label,B,Strong
+C19-DRUG-003,drug,CYP2C19,舍曲林,,,对于使用 舍曲林 的患者，CYP2C19 表型PM 时：维持常规剂量（影响小）；UM 时：疗效不足时考虑换药或加量。推荐等级：B (Moderate)。替代药物：艾司西酞普兰/米氮平,CPIC 2023 SSRI/SNRI指南,B,Moderate
+C19-DRUG-004,drug,CYP2C19,氟伏沙明,,,对于使用 氟伏沙明 的患者，CYP2C19 表型PM 时：不适用（为CYP2C19强抑制剂，非主要底物）；UM 时：不适用。推荐等级：C (Strong)。替代药物：舍曲林,CPIC 2023 / FDA label,C,Strong
+C19-DRUG-005,drug,CYP2C19,氟西汀,,,对于使用 氟西汀 的患者，CYP2C19 表型PM 时：密切监测（活性代谢物半衰期长），建议换非CYP2C19药物；UM 时：疗效不足时增加剂量。推荐等级：C (Moderate)。替代药物：舍曲林/艾司西酞普兰,CPIC 2023 SSRI/SNRI指南 / FDA label,C,Moderate
+C19-DRUG-006,drug,CYP2C19,氯米帕明,,,对于使用 氯米帕明 的患者，CYP2C19 表型PM 时：避免或减量50%并TDM；UM 时：换用SSRI或增加剂量。推荐等级：B (Moderate)。替代药物：艾司西酞普兰/舍曲林,CPIC 2016 TCA指南,B,Moderate
+C19-DRUG-007,drug,CYP2C19,阿米替林,,,对于使用 阿米替林 的患者，CYP2C19 表型PM 时：避免或减量50%并TDM；UM 时：换药或增加剂量并TDM。推荐等级：B (Moderate)。替代药物：米氮平/舍曲林,CPIC 2016 TCA指南,B,Moderate
+C19-DRUG-008,drug,CYP2C19,丙米嗪,,,对于使用 丙米嗪 的患者，CYP2C19 表型PM 时：避免或减量50%并TDM；UM 时：换药或增加剂量并TDM。推荐等级：C (Moderate)。替代药物：米氮平,CPIC 2016 TCA指南,C,Moderate
+C19-DRUG-009,drug,CYP2C19,多塞平,,,对于使用 多塞平 的患者，CYP2C19 表型PM 时：避免或减量50%并TDM；UM 时：换药或增加剂量并TDM。推荐等级：C (Moderate)。替代药物：米氮平,CPIC 2016 TCA指南,C,Moderate
+C19-DRUG-010,drug,CYP2C19,氯吡格雷,,,对于使用 氯吡格雷 的患者，CYP2C19 表型PM 时：换用普拉格雷或替格瑞洛；UM 时：常规剂量（活化增强）。推荐等级：A (Strong)。替代药物：普拉格雷/替格瑞洛,CPIC 2022氯吡格雷指南,A,Strong
+C19-DRUG-011,drug,CYP2C19,奥美拉唑,,,对于使用 奥美拉唑 的患者，CYP2C19 表型PM 时：可减量（抑酸增强）；UM 时：疗效不足时增加剂量。推荐等级：C (Moderate)。替代药物：泮托拉唑/雷贝拉唑,CPIC / FDA label,C,Moderate
+C19-DRUG-012,drug,CYP2C19,兰索拉唑,,,对于使用 兰索拉唑 的患者，CYP2C19 表型PM 时：可减量；UM 时：疗效不足时增加剂量。推荐等级：C (Moderate)。替代药物：泮托拉唑/雷贝拉唑,CPIC / FDA label,C,Moderate
+C19-DRUG-013,drug,CYP2C19,埃索美拉唑,,,对于使用 埃索美拉唑 的患者，CYP2C19 表型PM 时：可减量；UM 时：疗效不足时增加剂量。推荐等级：C (Moderate)。替代药物：泮托拉唑/雷贝拉唑,CPIC / FDA label,C,Moderate
+C19-DRUG-014,drug,CYP2C19,泮托拉唑,,,对于使用 泮托拉唑 的患者，CYP2C19 表型PM 时：影响小，维持剂量；UM 时：影响小，维持剂量。推荐等级：C (Low)。替代药物：雷贝拉唑,PharmGKB / FDA label,C,Low
+C19-DRUG-015,drug,CYP2C19,雷贝拉唑,,,对于使用 雷贝拉唑 的患者，CYP2C19 表型PM 时：无需调整（主要非酶代谢）；UM 时：无需调整。推荐等级：D (None)。替代药物：-,PharmGKB / FDA label,D,None
+C19-DRUG-016,drug,CYP2C19,伏立康唑,,,对于使用 伏立康唑 的患者，CYP2C19 表型PM 时：减量并监测血药浓度；UM 时：增加剂量或换用其他抗真菌药。推荐等级：A (Strong)。替代药物：泊沙康唑/艾沙康唑,CPIC 2019伏立康唑指南,A,Strong
+C19-DRUG-017,drug,CYP2C19,地西泮,,,对于使用 地西泮 的患者，CYP2C19 表型PM 时：减量（次要途径）；UM 时：影响小。推荐等级：C (Low)。替代药物：劳拉西泮/奥沙西泮,PharmGKB,C,Low
+C19-DRUG-018,drug,CYP2C19,苯妥英,,,对于使用 苯妥英 的患者，CYP2C19 表型PM 时：监测血药浓度；UM 时：影响小。推荐等级：C (Low)。替代药物：左乙拉西坦/丙戊酸,PharmGKB / FDA label,C,Low
+C19-DRUG-019,drug,CYP2C19,环磷酰胺,,,对于使用 环磷酰胺 的患者，CYP2C19 表型PM 时：疗效可能降低（次要途径）；UM 时：影响小。推荐等级：C (Low)。替代药物：异环磷酰胺,PharmGKB,C,Low
+C19-DRUG-020,drug,CYP2C19,华法林,,,对于使用 华法林 的患者，CYP2C19 表型PM 时：影响小（主要CYP2C9）；UM 时：影响小。推荐等级：C (Low)。替代药物：-,PharmGKB / FDA label,C,Low
+C19-DRUG-021,drug,CYP2C19,帕罗西汀,,,对于使用 帕罗西汀 的患者，CYP2C19 表型PM 时：无需调整（CYP2D6底物）；UM 时：无需调整。推荐等级：D (None)。替代药物：-,PharmGKB,D,None
+C19-DRUG-022,drug,CYP2C19,文拉法辛,,,对于使用 文拉法辛 的患者，CYP2C19 表型PM 时：无需调整（CYP2D6底物）；UM 时：无需调整。推荐等级：D (None)。替代药物：-,PharmGKB,D,None
+C19-DRUG-023,drug,CYP2C19,米氮平,,,对于使用 米氮平 的患者，CYP2C19 表型PM 时：无需调整（CYP2D6/1A2/3A4）；UM 时：无需调整。推荐等级：D (None)。替代药物：-,PharmGKB,D,None
+C19-DRUG-024,drug,CYP2C19,喹硫平,,,对于使用 喹硫平 的患者，CYP2C19 表型PM 时：无需调整（CYP3A4底物）；UM 时：无需调整。推荐等级：D (None)。替代药物：-,PharmGKB,D,None
+C19-DRUG-025,drug,CYP2C19,奥氮平,,,对于使用 奥氮平 的患者，CYP2C19 表型PM 时：无需调整（CYP1A2/UGT）；UM 时：无需调整。推荐等级：D (None)。替代药物：-,PharmGKB,D,None
+C19-DRUG-026,drug,CYP2C19,阿戈美拉汀,,,对于使用 阿戈美拉汀 的患者，CYP2C19 表型PM 时：无需调整（CYP1A2底物）；UM 时：无需调整。推荐等级：D (None)。替代药物：-,PharmGKB / FDA label,D,None
+D6-SIG-001,signal,CYP2D6,,PM,,临床信号【可待因镇痛完全无效或严重不良反应】（强度：强）→ 提示 CYP2D6 PM 表型。解释：可待因为前药，CYP2D6 PM型无法将可待因转化为活性代谢物吗啡。检测建议：强烈推荐（CPIC 2021强信号：可待因对CYP2D6 PM型镇痛无效，且中毒风险不增加，故应禁用）,CPIC 2021血小板指南(Crews),,
+D6-SIG-002,signal,CYP2D6,,PM,,临床信号【曲马多镇痛完全无效】（强度：强）→ 提示 CYP2D6 PM 表型。解释：曲马多需CYP2D6转化为O-去甲基曲马多（活性代谢物），PM型代谢不足。检测建议：强烈推荐（CPIC 2021强信号：曲马多对CYP2D6 PM型镇痛减弱）,CPIC 2021血小板指南(Crews),,
+D6-SIG-003,signal,CYP2D6,,PM,,临床信号【低剂量TCA即出现明显抗胆碱能副作用】（强度：强）→ 提示 CYP2D6 PM 表型。解释：TCA需CYP2D6代谢，PM型母药蓄积。检测建议：强烈推荐（CPIC 2016 TCA强信号：PM型TCA蓄积导致ADR）,CPIC 2016 TCA指南(Hicks),,
+D6-SIG-004,signal,CYP2D6,,PM,,临床信号【TCA标准剂量抗抑郁疗效差且ADR明显】（强度：强）→ 提示 CYP2D6 PM 表型。解释：TCA在PM型中血药浓度升高。检测建议：强烈推荐（TCA对CYP2D6 PM型风险大于获益）,CPIC 2016 TCA指南(Hicks),,
+D6-SIG-005,signal,CYP2D6,,PM,,临床信号【SSRIs/SNRIs初始剂量即出现显著副作用】（强度：中）→ 提示 CYP2D6 PM 表型。解释：SSRIs/SNRIs在CYP2D6 PM型中代谢减慢，血药浓度升高。检测建议：推荐（CYP2D6 PM型SSRI血药浓度显著升高）,CPIC 2023 SSRI/SNRI指南(Bousman),,
+D6-SIG-006,signal,CYP2D6,,PM,,临床信号【阿托西汀血药浓度异常升高】（强度：强）→ 提示 CYP2D6 PM 表型。解释：阿托西汀几乎全部经CYP2D6代谢，PM型暴露量约10倍。检测建议：强烈推荐（CPIC 2019强信号：阿托西汀对CYP2D6 PM型需减量50%),CPIC 2019 ADHD指南(Brown),,
+D6-SIG-007,signal,CYP2D6,,PM,,临床信号【利培酮锥体外系反应或PRL显著升高】（强度：中）→ 提示 CYP2D6 PM 表型。解释：CYP2D6 PM型利培酮暴露量显著增加。检测建议：推荐（DPWG指南：PM型利培酮暴露增加，需减量）,DPWG精神药物指南,,
+D6-SIG-008,signal,CYP2D6,,PM,,临床信号【美托洛尔心动过缓或低血压】（强度：中）→ 提示 CYP2D6 PM 表型。解释：CYP2D6 PM型美托洛尔血药浓度升高，β受体阻滞作用过强。检测建议：推荐（DPWG指南：PM型美托洛尔暴露增加）,DPWG心血管药物指南,,
+D6-SIG-009,signal,CYP2D6,,UM,,临床信号【可待因中毒（严重呼吸抑制）】（强度：强）→ 提示 CYP2D6 UM 表型。解释：CYP2D6 UM型将可待因快速转化为过量吗啡。检测建议：强烈推荐（CPIC 2021强信号：可待因对CYP2D6 UM型中毒风险）,CPIC 2021血小板指南(Crews),,
+D6-SIG-010,signal,CYP2D6,,UM,,临床信号【曲马多癫痫发作或5-HT综合征】（强度：强）→ 提示 CYP2D6 UM 表型。解释：CYP2D6 UM型快速产生过量O-去甲基曲马多和5-HT激活。检测建议：强烈推荐（CPIC 2021强信号：曲马多对CYP2D6 UM型神经毒性风险）,CPIC 2021血小板指南(Crews),,
+D6-SIG-011,signal,CYP2D6,,UM,,临床信号【TCA标准剂量完全无效（快速代谢型）】（强度：强）→ 提示 CYP2D6 UM 表型。解释：CYP2D6 UM型代谢TCA极快，母药血药浓度不足。检测建议：强烈推荐（CPIC 2016 TCA强信号：UM型TCA疗效不足）,CPIC 2016 TCA指南(Hicks),,
+D6-SIG-012,signal,CYP2D6,,UM,,临床信号【昂丹司琼止吐效果差】（强度：中）→ 提示 CYP2D6 UM 表型。解释：CYP2D6 UM型昂丹司琼清除过快，血药浓度不足。检测建议：推荐（CPIC 2017：昂丹司琼对CYP2D6 UM型疗效不足，可换用格拉司琼）,CPIC 2017昂丹司琼/托烷司琼指南(Bell),,
+D6-SIG-013,signal,CYP2D6,,UM,,临床信号【帕罗西汀血药浓度极低或疗效差】（强度：弱）→ 提示 CYP2D6 UM 表型。解释：CYP2D6 UM型快速代谢帕罗西汀。检测建议：弱推荐（证据有限但机制明确：帕罗西汀对CYP2D6 UM型疗效不足）,Guzey & Spigset 2006,,
+D6-SIG-014,signal,CYP2D6,,PM,,临床信号【他莫昔芬治疗期间乳腺癌复发（绝经后）】（强度：中）→ 提示 CYP2D6 PM 表型。解释：Endoxifen（他莫昔芬活性代谢物）需CYP2D6活化，PM型浓度不足。检测建议：强烈推荐（CPIC 2018强信号：绝经后CYP2D6 PM型应换芳香化酶抑制剂）,CPIC 2018他莫昔芬指南(Goetz),,
+C19-SIG-001,signal,CYP2C19,,PM,,临床信号【氯吡格雷抵抗或支架内血栓】（强度：强）→ 提示 CYP2C19 PM 表型。解释：提示CYP2C19 PM型：前药活化不足，活性代谢物减少。检测建议：强推荐（CPIC 2022明确建议基因检测）,CPIC 2022血小板指南(Crews),,
+C19-SIG-002,signal,CYP2C19,,UM,,临床信号【PPI标准剂量根除幽门螺杆菌失败】（强度：强）→ 提示 CYP2C19 UM 表型。解释：提示CYP2C19快代谢型(UM/RM)：PPI代谢过快。检测建议：推荐（可考虑基因检测指导PPI剂量）,CPIC 2022 PPI指南,,
+C19-SIG-003,signal,CYP2C19,,Both,,临床信号【伏立康唑治疗窗异常】（强度：强）→ 提示 CYP2C19 Both 表型。解释：提示CYP2C19 PM(浓度高)或UM(浓度低)。检测建议：强烈推荐（伏立康唑治疗窗口窄，CPIC建议PM/UM均需检测）,CPIC 2019伏立康唑指南,,
+C19-SIG-004,signal,CYP2C19,,PM,,临床信号【艾司西酞普兰或西酞普兰标准剂量QT延长】（强度：中）→ 提示 CYP2C19 PM 表型。解释：提示CYP2C19 PM(蓄积致QT)或UM(浓度低无效)。检测建议：推荐（SSRI对CYP2C19 PM有明确剂量建议）,FDA label / CPIC 2023,,
+C19-SIG-005,signal,CYP2C19,,PM,,临床信号【低剂量TCA出现明显抗胆碱能副作用】（强度：中）→ 提示 CYP2C19 PM 表型。解释：提示CYP2C19 PM型：母药蓄积。检测建议：推荐（CYP2C19显著影响TCA血药浓度）,CPIC 2016 TCA指南,,
+C19-SIG-006,signal,CYP2C19,,UM,,临床信号【标准剂量舍曲林疗效不佳】（强度：弱）→ 提示 CYP2C19 UM 表型。解释：可能CYP2C19 UM型：代谢加快。检测建议：弱推荐（证据强度有限）,CPIC 2023 SSRI/SNRI指南,,
+C19-SIG-007,signal,CYP2C19,,PM,,临床信号【地西泮常规剂量出现过度镇静】（强度：弱）→ 提示 CYP2C19 PM 表型。解释：提示CYP2C19 PM型：清除减慢。检测建议：弱推荐（CYP2C19不是地西泮主要代谢酶）,PharmGKB,,
+C19-SIG-008,signal,CYP2C19,,PM,,临床信号【奥美拉唑标准剂量抑酸过度】（强度：弱）→ 提示 CYP2C19 PM 表型。解释：提示CYP2C19 PM型：药物蓄积。检测建议：弱推荐（PPI主要代谢途径有争议）,PharmGKB/FDA label,,
+C19-SIG-009,signal,CYP2C19,,PM,,临床信号【环磷酰胺化疗疗效差】（强度：弱）→ 提示 CYP2C19 PM 表型。解释：可能CYP2C19 PM型：前药活化不足(次要途径)。检测建议：不推荐（CYP2C19仅为次要途径，非主要决定因素）,PharmGKB,,
+C19-SIG-010,signal,CYP2C19,,Both,,临床信号【东亚人群PPI或SSRI疗效个体差异大】（强度：弱）→ 提示 CYP2C19 Both 表型。解释：提示CYP2C19*2/*3高频致PM/IM比例高。检测建议：推荐（东亚人群高频突变，群体筛查意义大）,PharmGKB/CPIC 2022,,
+D6-FREQ-001,frequency,CYP2D6,,,东亚,"东亚 人群 CYP2D6 表型频率：PM 0.004, IM 0.44, NM 0.54, UM 0.014。来源：PharmGKB/Gaedigk 2017 (Genet Med)",PharmGKB/Gaedigk 2017 (Genet Med),,
+D6-FREQ-002,frequency,CYP2D6,,,欧洲,"欧洲 人群 CYP2D6 表型频率：PM 0.054, IM 0.10, NM 0.815, UM 0.031。来源：PharmGKB/Gaedigk 2017 (Genet Med)",PharmGKB/Gaedigk 2017 (Genet Med),,
+D6-FREQ-003,frequency,CYP2D6,,,非洲裔,"非洲裔 人群 CYP2D6 表型频率：PM 0.030, IM 0.32, NM 0.61, UM 0.040。来源：Gaedigk 2017 (Genet Med) / NCBI Bookshelf",Gaedigk 2017 (Genet Med) / NCBI Bookshelf,,
+D6-FREQ-004,frequency,CYP2D6,,,拉美裔,"拉美裔 人群 CYP2D6 表型频率：PM 0.025, IM 0.28, NM 0.63, UM 0.065。来源：RIBEF-CEIBA Consortium (Clin Pharmacol Ther 2018)",RIBEF-CEIBA Consortium (Clin Pharmacol Ther 2018),,
+C19-FREQ-001,frequency,CYP2C19,,,东亚,"东亚 人群 CYP2C19 表型频率：PM 0.13, IM 0.45, NM 0.41, UM 0.01。来源：PharmGKB/CPIC 2022 (Lee et al., Clin Pharmacol Ther 2022)","PharmGKB/CPIC 2022 (Lee et al., Clin Pharmacol Ther 2022)",,
+C19-FREQ-002,frequency,CYP2C19,,,欧洲,"欧洲 人群 CYP2C19 表型频率：PM 0.025, IM 0.26, NM 0.6, UM 0.115。来源：PharmGKB/CPIC 2022 (Lee et al., Clin Pharmacol Ther 2022)","PharmGKB/CPIC 2022 (Lee et al., Clin Pharmacol Ther 2022)",,
+C19-FREQ-003,frequency,CYP2C19,,,非洲裔,"非洲裔 人群 CYP2C19 表型频率：PM 0.04, IM 0.24, NM 0.67, UM 0.05。来源：gnomAD v4 + CPIC 2022 推算（*17 等位基因频率约 6-15%）",gnomAD v4 + CPIC 2022 推算（*17 等位基因频率约 6-15%）,,
+C19-FREQ-004,frequency,CYP2C19,,,拉美裔,"拉美裔 人群 CYP2C19 表型频率：PM 0.03, IM 0.3, NM 0.52, UM 0.15。来源：RIBEF-CEIBA Consortium (CPT 2018) + gnomAD v4 推算",RIBEF-CEIBA Consortium (CPT 2018) + gnomAD v4 推算,,
+DDI-001,interaction,CYP2C19,氟伏沙明+艾司西酞普兰,,,氟伏沙明 与 艾司西酞普兰 联用（机制：强抑制剂+底物），警示等级：高。临床后果：艾司西酞普兰血药浓度升高2-3倍，QT延长风险。PM型行动：避免联用或艾司西酞普兰减量,CPIC/FDA label,高,
+DDI-002,interaction,CYP2C19,氟伏沙明+西酞普兰,,,氟伏沙明 与 西酞普兰 联用（机制：强抑制剂），警示等级：高。临床后果：西酞普兰蓄积，QTc延长。PM型行动：避免联用或西酞普兰减量至≤10mg,FDA label,高,
+DDI-003,interaction,CYP2C19,氟伏沙明+氯米帕明,,,氟伏沙明 与 氯米帕明 联用（机制：强抑制剂），警示等级：高。临床后果：氯米帕明血药浓度升高2-4倍，心脏毒性。PM型行动：避免联用；必须则减半并监测心电图,FDA label,高,
+DDI-004,interaction,CYP2C19,氟伏沙明+阿米替林,,,氟伏沙明 与 阿米替林 联用（机制：强抑制剂），警示等级：高。临床后果：阿米替林蓄积，抗胆碱能毒性。PM型行动：避免联用或减量并TDM,CPIC/FDA label,高,
+DDI-005,interaction,CYP2C19,氟伏沙明+丙米嗪,,,氟伏沙明 与 丙米嗪 联用（机制：强抑制剂），警示等级：高。临床后果：丙米嗪蓄积。PM型行动：避免联用或减量并TDM,CPIC/FDA label,高,
+DDI-006,interaction,CYP2C19,氟伏沙明+多塞平,,,氟伏沙明 与 多塞平 联用（机制：强抑制剂），警示等级：高。临床后果：多塞平蓄积。PM型行动：避免联用或减量并TDM,CPIC/FDA label,高,
+DDI-007,interaction,CYP2C19,氟伏沙明+氯吡格雷,,,氟伏沙明 与 氯吡格雷 联用（机制：强抑制剂），警示等级：高。临床后果：氯吡格雷活化减少，抗血小板作用减弱。PM型行动：避免联用，改普拉格雷或替格瑞洛,CPIC 2022,高,
+DDI-008,interaction,CYP2C19,氟伏沙明+地西泮,,,氟伏沙明 与 地西泮 联用（机制：强抑制剂），警示等级：中。临床后果：地西泮蓄积，过度镇静。PM型行动：避免联用或减量,FDA label,中,
+DDI-009,interaction,CYP2C19,氟伏沙明+苯妥英,,,氟伏沙明 与 苯妥英 联用（机制：强抑制剂），警示等级：高。临床后果：苯妥英蓄积中毒。PM型行动：监测苯妥英血药浓度,FDA label,高,
+DDI-010,interaction,CYP2C19,氟伏沙明+奥美拉唑,,,氟伏沙明 与 奥美拉唑 联用（机制：强抑制剂+底物），警示等级：中。临床后果：奥美拉唑浓度升高。PM型行动：监测或调整剂量,FDA label,中,
+DDI-011,interaction,CYP2C19,氟伏沙明+舍曲林,,,氟伏沙明 与 舍曲林 联用（机制：强抑制剂），警示等级：高。临床后果：舍曲林血药浓度显著升高。PM型行动：避免联用或减量,FDA label,高,
+DDI-012,interaction,CYP2C19,氟伏沙明+氟西汀,,,氟伏沙明 与 氟西汀 联用（机制：强抑制剂），警示等级：高。临床后果：5-HT综合征风险，多巴胺蓄积。PM型行动：避免联用,FDA label,高,
+DDI-013,interaction,CYP2C19,氟康唑+西酞普兰,,,氟康唑 与 西酞普兰 联用（机制：强抑制剂），警示等级：高。临床后果：西酞普兰蓄积QT延长。PM型行动：西酞普兰减量,FDA label,高,
+DDI-014,interaction,CYP2C19,氟康唑+艾司西酞普兰,,,氟康唑 与 艾司西酞普兰 联用（机制：强抑制剂），警示等级：高。临床后果：艾司西酞普兰蓄积。PM型行动：减量,FDA label,高,
+DDI-015,interaction,CYP2C19,氟康唑+伏立康唑,,,氟康唑 与 伏立康唑 联用（机制：强抑制剂），警示等级：高。临床后果：伏立康唑蓄积。PM型行动：避免联用或伏立康唑减量,FDA label,高,
+DDI-016,interaction,CYP2C19,氟康唑+氯米帕明,,,氟康唑 与 氯米帕明 联用（机制：强抑制剂），警示等级：高。临床后果：氯米帕明蓄积。PM型行动：减量并TDM,FDA label,高,
+DDI-017,interaction,CYP2C19,氟康唑+地西泮,,,氟康唑 与 地西泮 联用（机制：强抑制剂），警示等级：中。临床后果：地西泮蓄积。PM型行动：减量,FDA label,中,
+DDI-018,interaction,CYP2C19,氟康唑+苯妥英,,,氟康唑 与 苯妥英 联用（机制：强抑制剂），警示等级：高。临床后果：苯妥英蓄积。PM型行动：监测血药浓度,FDA label,高,
+DDI-019,interaction,CYP2C19,氟康唑+阿米替林,,,氟康唑 与 阿米替林 联用（机制：强抑制剂），警示等级：高。临床后果：阿米替林蓄积，心脏毒性。PM型行动：减量并TDM心电图,FDA label,高,
+DDI-020,interaction,CYP2C19,伏立康唑+奥美拉唑,,,伏立康唑 与 奥美拉唑 联用（机制：抑制剂+底物），警示等级：中。临床后果：奥美拉唑浓度升高。PM型行动：监测,FDA label,中,
+DDI-021,interaction,CYP2C19,伏立康唑+艾司西酞普兰,,,伏立康唑 与 艾司西酞普兰 联用（机制：抑制剂），警示等级：中。临床后果：艾司西酞普兰蓄积。PM型行动：减量,FDA label,中,
+DDI-022,interaction,CYP2C19,伏立康唑+地西泮,,,伏立康唑 与 地西泮 联用（机制：抑制剂），警示等级：中。临床后果：地西泮蓄积。PM型行动：减量,FDA label,中,
+DDI-023,interaction,CYP2C19,伏立康唑+氯吡格雷,,,伏立康唑 与 氯吡格雷 联用（机制：抑制剂），警示等级：中。临床后果：氯吡格雷活化减弱。PM型行动：监测,FDA label,中,
+DDI-024,interaction,CYP2C19,伏立康唑+西酞普兰,,,伏立康唑 与 西酞普兰 联用（机制：抑制剂），警示等级：中。临床后果：西酞普兰蓄积。PM型行动：减量,FDA label,中,
+DDI-025,interaction,CYP2C19,噻氯匹定+氯吡格雷,,,噻氯匹定 与 氯吡格雷 联用（机制：强抑制剂），警示等级：高。临床后果：氯吡格雷活化降低。PM型行动：避免联用,CPIC 2022,高,
+DDI-026,interaction,CYP2C19,奥美拉唑+氯吡格雷,,,奥美拉唑 与 氯吡格雷 联用（机制：中抑制剂+底物），警示等级：中。临床后果：氯吡格雷活化可能降低（证据有争议）。PM型行动：避免联用，改泮托拉唑或雷贝拉唑,CPIC 2022/FDA label（存在争议）,中,
+DDI-027,interaction,CYP2C19,奥美拉唑+地西泮,,,奥美拉唑 与 地西泮 联用（机制：中抑制剂），警示等级：中。临床后果：地西泮蓄积。PM型行动：减量,FDA label,中,
+DDI-028,interaction,CYP2C19,奥美拉唑+西酞普兰,,,奥美拉唑 与 西酞普兰 联用（机制：中抑制剂），警示等级：中。临床后果：西酞普兰蓄积。PM型行动：监测,FDA label,中,
+DDI-029,interaction,CYP2C19,兰索拉唑+氯吡格雷,,,兰索拉唑 与 氯吡格雷 联用（机制：抑制剂），警示等级：中。临床后果：氯吡格雷活化可能减弱。PM型行动：谨慎联用，监测血小板,FDA label,中,
+DDI-030,interaction,CYP2C19,埃索美拉唑+氯吡格雷,,,埃索美拉唑 与 氯吡格雷 联用（机制：抑制剂），警示等级：中。临床后果：氯吡格雷活化可能减弱。PM型行动：谨慎联用，监测血小板,FDA label,中,
+DDI-031,interaction,CYP2C19,氟西汀+氯吡格雷,,,氟西汀 与 氯吡格雷 联用（机制：中抑制剂），警示等级：中。临床后果：氯吡格雷活化减弱。PM型行动：谨慎联用，监测血小板,CPIC,中,
+DDI-032,interaction,CYP2C19,氟西汀+西酞普兰,,,氟西汀 与 西酞普兰 联用（机制：中抑制剂），警示等级：高。临床后果：西酞普兰QT延长风险叠加。PM型行动：避免联用或减量监测心电图,FDA label,高,
+DDI-033,interaction,CYP2C19,氟西汀+艾司西酞普兰,,,氟西汀 与 艾司西酞普兰 联用（机制：中抑制剂），警示等级：高。临床后果：5-HT综合征风险。PM型行动：避免联用,FDA label,高,
+DDI-034,interaction,CYP2C19,氟西汀+氯米帕明,,,氟西汀 与 氯米帕明 联用（机制：中抑制剂），警示等级：高。临床后果：氯米帕明血药浓度升高3-10倍，心脏毒性。PM型行动：避免联用，必须则减量75%并TDM,FDA label/CPIC,高,
+DDI-035,interaction,CYP2C19,氟西汀+阿米替林,,,氟西汀 与 阿米替林 联用（机制：中抑制剂），警示等级：高。临床后果：阿米替林血药浓度显著升高，心脏毒性。PM型行动：避免联用，必须则减量并TDM,FDA label/CPIC,高,
+DDI-036,interaction,CYP2C19,氯霉素+氯吡格雷,,,氯霉素 与 氯吡格雷 联用（机制：中抑制剂），警示等级：中。临床后果：氯吡格雷活化减弱。PM型行动：谨慎联用，监测血小板,FDA label,中,
+DDI-037,interaction,CYP2C19,西咪替丁+氯吡格雷,,,西咪替丁 与 氯吡格雷 联用（机制：弱抑制剂），警示等级：低。临床后果：轻微影响抗血小板作用。PM型行动：监测,FDA label,低,
+DDI-038,interaction,CYP2C19,舍曲林+氯吡格雷,,,舍曲林 与 氯吡格雷 联用（机制：弱抑制剂），警示等级：低。临床后果：轻微影响抗血小板作用。PM型行动：监测,FDA label,低,
+DDI-039,interaction,CYP2C19,舍曲林+氯米帕明,,,舍曲林 与 氯米帕明 联用（机制：弱抑制剂），警示等级：中。临床后果：氯米帕明血药浓度升高，抗胆碱能副作用增加。PM型行动：减量并监测,FDA label,中,
+DDI-040,interaction,CYP2C19,利福平+艾司西酞普兰,,,利福平 与 艾司西酞普兰 联用（机制：强诱导剂），警示等级：中。临床后果：艾司西酞普兰浓度降低疗效不足。PM型行动：增加剂量或换药,CPIC/FDA label,中,
+DDI-041,interaction,CYP2C19,卡马西平+艾司西酞普兰,,,卡马西平 与 艾司西酞普兰 联用（机制：诱导剂），警示等级：中。临床后果：疗效降低。PM型行动：增加剂量或换药,FDA label,中,
+DDI-042,interaction,CYP2C19,利福平+氯吡格雷,,,利福平 与 氯吡格雷 联用（机制：强诱导剂），警示等级：中。临床后果：氯吡格雷活化代谢加速，活性代谢物水平波动，临床意义有争议。PM型行动：监测血小板功能,CPIC/FDA label（机制有争议）,中,
+DDI-043,interaction,CYP2C19,卡马西平+氯米帕明,,,卡马西平 与 氯米帕明 联用（机制：诱导剂），警示等级：中。临床后果：氯米帕明代谢加速，疗效降低。PM型行动：增加剂量或换药,FDA label,中,
+DDI-044,interaction,CYP2C19,苯妥英+氯米帕明,,,苯妥英 与 氯米帕明 联用（机制：诱导剂），警示等级：中。临床后果：氯米帕明代谢加速，疗效降低。PM型行动：监测浓度，调整剂量,FDA label,中,
+DDI-045,interaction,CYP2C19,圣约翰草+艾司西酞普兰,,,圣约翰草 与 艾司西酞普兰 联用（机制：诱导剂），警示等级：中。临床后果：艾司西酞普兰浓度降低，疗效不足。PM型行动：避免联用，增加剂量或换药,文献,中,
+DDI-046,interaction,CYP2D6,帕罗西汀+他莫昔芬,,,帕罗西汀 与 他莫昔芬 联用（机制：强抑制剂（不可逆）+前药），警示等级：高。临床后果：他莫昔芬活性代谢物（Endoxifen）浓度显著降低，乳腺癌复发风险增加。PM型行动：禁止联用；换用非CYP2D6抑制性抗抑郁药（如舍曲林或艾司西酞普兰）,"CPIC 2018他莫昔芬指南（Goetz et al., Clin Pharmacol Ther 2018;103:770-777）",高,
+DDI-047,interaction,CYP2D6,氟西汀+他莫昔芬,,,氟西汀 与 他莫昔芬 联用（机制：强抑制剂（活性代谢物半衰期长）+前药），警示等级：高。临床后果：他莫昔芬活性代谢物（Endoxifen）浓度显著降低，乳腺癌复发风险增加。PM型行动：禁止联用；换用非CYP2D6抑制性抗抑郁药（如舍曲林或艾司西酞普兰）,"CPIC 2018他莫昔芬指南（Goetz et al., Clin Pharmacol Ther 2018;103:770-777）",高,
+DDI-048,interaction,CYP2D6,帕罗西汀+文拉法辛,,,帕罗西汀 与 文拉法辛 联用（机制：强抑制剂+底物），警示等级：高。临床后果：文拉法辛血药浓度显著升高，5-HT综合征风险。PM型行动：禁止联用；换用非CYP2D6代谢抗抑郁药或非SSRI/SNRI类药物,"CPIC 2023 SSRI/SNRI指南（Bousman et al., Clin Pharmacol Ther 2023;114:51-68）",高,
+DDI-049,interaction,CYP2D6,氟西汀+曲马多,,,氟西汀 与 曲马多 联用（机制：中抑制剂+底物），警示等级：高。临床后果：曲马多转化为O-去甲基曲马多减少，镇痛不足；5-HT综合征和癫痫发作风险。PM型行动：避免联用；换用吗啡或非CYP2D6代谢镇痛药,FDA label / CPIC 2021阿片类指南,高,
+DDI-050,interaction,CYP2D6,帕罗西汀+曲马多,,,帕罗西汀 与 曲马多 联用（机制：强抑制剂+底物），警示等级：高。临床后果：曲马多镇痛作用几乎消失；5-HT综合征风险。PM型行动：禁止联用；换用吗啡或非CYP2D6代谢镇痛药,"CPIC 2021阿片类指南（Crews et al., Clin Pharmacol Ther 2021）",高,
+DDI-051,interaction,CYP2D6,氟西汀+文拉法辛,,,氟西汀 与 文拉法辛 联用（机制：中抑制剂+底物），警示等级：中。临床后果：文拉法辛血药浓度升高，5-HT综合征风险。PM型行动：避免联用或减量；密切监测5-HT综合征体征,CPIC 2023 SSRI/SNRI指南,中,
+DDI-052,interaction,CYP2D6,氟西汀+氯米帕明,,,氟西汀 与 氯米帕明 联用（机制：中抑制剂+底物），警示等级：高。临床后果：氯米帕明血药浓度升高3-10倍，心脏毒性和抗胆碱能副作用。PM型行动：禁止联用；必须则减量75%并TDM,FDA label / CPIC 2016 TCA指南,高,
+D6-INH-001,inhibitor,CYP2D6,帕罗西汀,,,帕罗西汀 是 CYP2D6 强抑制剂（类型：inhibitor+substrate）。类别：SSRI抗抑郁药,,强,
+D6-INH-002,inhibitor,CYP2D6,氟西汀,,,氟西汀 是 CYP2D6 强抑制剂（类型：inhibitor+substrate）。类别：SSRI抗抑郁药,,强,
+D6-INH-003,inhibitor,CYP2D6,安非他酮,,,安非他酮 是 CYP2D6 强抑制剂（类型：inhibitor+substrate）。类别：SSRI抗抑郁药(NDRI),,强,
+D6-INH-004,inhibitor,CYP2D6,度洛西汀,,,度洛西汀 是 CYP2D6 中抑制剂（类型：inhibitor+substrate）。类别：SNRI抗抑郁药,,中,
+D6-INH-005,inhibitor,CYP2D6,西咪替丁,,,西咪替丁 是 CYP2D6 中抑制剂（类型：inhibitor）。类别：H2受体拮抗剂,,中,
+D6-INH-006,inhibitor,CYP2D6,奎尼丁,,,奎尼丁 是 CYP2D6 强抑制剂（类型：inhibitor）。类别：抗心律失常药,,强,
+D6-INH-007,inhibitor,CYP2D6,特比萘芬,,,特比萘芬 是 CYP2D6 强抑制剂（类型：inhibitor）。类别：抗真菌药,,强,
+D6-INH-008,inhibitor,CYP2D6,胺碘酮,,,胺碘酮 是 CYP2D6 中抑制剂（类型：inhibitor）。类别：抗心律失常药,,中,
+D6-INH-009,inhibitor,CYP2D6,塞来昔布,,,塞来昔布 是 CYP2D6 弱抑制剂（类型：inhibitor）。类别：COX-2抑制剂,,弱,
+C19-INH-001,inhibitor,CYP2C19,氟伏沙明,,,氟伏沙明 是 CYP2C19 强inhibitor。类别：SSRI抗抑郁药,,强,
+C19-INH-002,inhibitor,CYP2C19,氟康唑,,,氟康唑 是 CYP2C19 强inhibitor。类别：抗真菌药,,强,
+C19-INH-003,inhibitor,CYP2C19,噻氯匹定,,,噻氯匹定 是 CYP2C19 强inhibitor。类别：抗血小板药,,强,
+C19-INH-004,inhibitor,CYP2C19,伏立康唑,,,伏立康唑 是 CYP2C19 强inhibitor。类别：抗真菌药,,强,
+C19-INH-005,inhibitor,CYP2C19,奥美拉唑,,,奥美拉唑 是 CYP2C19 中inhibitor。类别：质子泵抑制剂,,中,
+C19-INH-006,inhibitor,CYP2C19,兰索拉唑,,,兰索拉唑 是 CYP2C19 中inhibitor。类别：质子泵抑制剂,,中,
+C19-INH-007,inhibitor,CYP2C19,埃索美拉唑,,,埃索美拉唑 是 CYP2C19 中inhibitor。类别：质子泵抑制剂,,中,
+C19-INH-008,inhibitor,CYP2C19,氟西汀,,,氟西汀 是 CYP2C19 中inhibitor。类别：SSRI抗抑郁药,,中,
+C19-INH-009,inhibitor,CYP2C19,氯霉素,,,氯霉素 是 CYP2C19 中inhibitor。类别：抗生素,,中,
+C19-INH-010,inhibitor,CYP2C19,西咪替丁,,,西咪替丁 是 CYP2C19 中inhibitor。类别：H2受体拮抗剂,,中,
+C19-INH-011,inhibitor,CYP2C19,舍曲林,,,舍曲林 是 CYP2C19 弱inhibitor。类别：SSRI抗抑郁药,,弱,
+C19-INH-012,inhibitor,CYP2C19,甲硝唑,,,甲硝唑 是 CYP2C19 弱inhibitor。类别：抗厌氧菌药,,弱,
+C19-INH-013,inhibitor,CYP2C19,泮托拉唑,,,泮托拉唑 是 CYP2C19 弱inhibitor。类别：质子泵抑制剂,,弱,
+C19-INH-014,inhibitor,CYP2C19,雷贝拉唑,,,雷贝拉唑 是 CYP2C19 弱inhibitor。类别：质子泵抑制剂,,弱,
+C19-INH-015,inhibitor,CYP2C19,利福平,,,利福平 是 CYP2C19 强inducer。类别：抗结核药,,强,
+C19-INH-016,inhibitor,CYP2C19,卡马西平,,,卡马西平 是 CYP2C19 强inducer。类别：抗癫痫药,,强,
+C19-INH-017,inhibitor,CYP2C19,苯妥英,,,苯妥英 是 CYP2C19 强inducer。类别：抗癫痫药,,强,
+C19-INH-018,inhibitor,CYP2C19,圣约翰草,,,圣约翰草 是 CYP2C19 强inducer。类别：中草药,,强,
+CCA-D6-LIVER-ALT-3X,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【ALT】>3xULN(120U/L)时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：dose_reduce_50。依据：ALT>3×ULN时CYP2D6代谢显著减弱，建议相关底物剂量减半并密切监测（FDA label: amitriptyline、paroxetine、fluoxetine）,FDA_labels_multiple_amitriptyline_paroxetine_fluoxetine,medium,medium
+CCA-C19-LIVER-ALT-3X,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【ALT】>3xULN(120U/L)时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：dose_reduce_50。依据：ALT>3×ULN时CYP2C19代谢减弱，建议相关底物剂量减半（FDA label: voriconazole、lansoprazole）,FDA_labels_multiple_voriconazole_lansoprazole,medium,medium
+CCA-D6-LIVER-AST-3X,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【AST】>3xULN(105U/L)时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：dose_reduce_50。依据：AST>3×ULN时CYP2D6代谢减弱，建议剂量调整（FDA amitriptyline label）,FDA_label_amitriptyline,medium,medium
+CCA-C19-LIVER-AST-3X,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【AST】>3xULN(105U/L)时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：dose_reduce_50。依据：AST>3×ULN时CYP2C19代谢减弱，建议剂量调整（FDA voriconazole label）,FDA_label_voriconazole,medium,medium
+CCA-D6-LIVER-ALB-LOW,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【Alb】<2.5g/dL时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：dose_reduce_50_consider。依据：Hypoalbuminemia时药物蛋白结合率下降，游离药物浓度升高，CYP2D6底物需减量（FDA label: amitriptyline、morphine）,FDA_label_multiple,low,low
+CCA-C19-LIVER-ALB-LOW,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【Alb】<2.5g/dL时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：dose_reduce_50_consider。依据：Hypoalbuminemia时药物蛋白结合率下降，游离药物浓度升高，CYP2C19底物需减量（FDA label: voriconazole、diazepam）,FDA_label_multiple,low,low
+CCA-D6-LIVER-BILI-HIGH,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【T.Bili】>2mg/dL时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：metabolism_reduced。依据：高胆红素血症时CYP酶活性普遍下调，CYP2D6代谢减弱（临床判断）,clinical_judgment,low,low
+CCA-C19-LIVER-BILI-HIGH,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【T.Bili】>2mg/dL时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：metabolism_reduced。依据：高胆红素血症时CYP酶活性普遍下调，CYP2C19代谢减弱（临床判断）,clinical_judgment,low,low
+CCA-D6-RENAL-CRCL-30,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【CrCl】<30mL/min时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：accumulation_risk_monitor。依据：CrCl<30时CYP2D6底物（可待因、曲马多）蓄积风险增加，需减量或换药（FDA codeine/tramadol label）,FDA_label_codeine_tramadol,medium,medium
+CCA-C19-RENAL-CRCL-30,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【CrCl】<30mL/min时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：accumulation_risk_monitor。依据：CrCl<30时CYP2C19底物蓄积风险增加（FDA clopidogrel label）,FDA_label_clopidogrel,low,low
+CCA-D6-RENAL-CRCL-50,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【CrCl】30-50mL/min时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：use_with_caution。依据：CrCl 30-50时CYP2D6底物需减量，密切监测呼吸抑制和镇静（FDA codeine label）,FDA_label_codeine,low,low
+CCA-C19-RENAL-CRCL-50,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【CrCl】30-50mL/min时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：use_with_caution。依据：CrCl 30-50时CYP2C19底物代谢减慢，建议监测,clinical_judgment,low,low
+CCA-D6-RENAL-eGFR-30,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【eGFR】<30mL/min/1.73m2时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：dose_reduce_50。依据：eGFR<30时CYP2D6底物（美托洛尔、普罗帕酮）暴露增加，建议减量（FDA label）,FDA_label_metoprolol_propafenone,medium,medium
+CCA-C19-RENAL-eGFR-30,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【eGFR】<30mL/min/1.73m2时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：dose_reduce_50。依据：eGFR<30时PPI类（CYP2C19底物）需减量（FDA label: omeprazole、pantoprazole）,FDA_label_proton_pump_inhibitors,low,low
+CCA-D6-RENAL-DIALYSIS,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【HD】ongoing_hemodialysis时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：dose_after_dialysis。依据：血液透析患者CYP2D6底物清除增加，建议透析后给药并减量（FDA tramadol label）,FDA_label_tramadol,medium,medium
+CCA-D6-COAG-INR-HIGH,cca_blood_marker,CYP2D6,blood_thinners,,,当化验指标【INR】>1.5时，使用药物blood_thinners的患者，CYP2D6代谢能力受影响。建议行动：monitor_bleeding_risk。依据：INR升高反映肝脏合成功能下降，CYP2D6代谢减弱，出血风险叠加,clinical_judgment,medium,medium
+CCA-C19-COAG-INR-HIGH,cca_blood_marker,CYP2C19,blood_thinners,,,当化验指标【INR】>1.5时，使用药物blood_thinners的患者，CYP2C19代谢能力受影响。建议行动：monitor_bleeding_risk。依据：INR升高时CYP2C19底物（氯吡格雷、华法林）代谢改变，出血风险增加（CPIC warfarin guideline）,CPIC_warfarin_guideline,medium,medium
+CCA-C19-COAG-PT-HIGH,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【PT】>1.5x control时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：dose_reduce。依据：PT延长反映肝脏合成功能下降，CYP2C19代谢能力减弱,clinical_judgment,low,low
+CCA-D6-HEMA-PLT-LOW,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【Plt】<50000/uL时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：monitor_bleeding。依据：血小板显著减少时CYP2D6底物（阿司匹林、NSAIDs）出血风险叠加,clinical_judgment,low,low
+CCA-D6-ELEC-K-HIGH,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【K】>5.5mEq/L时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：monitor_ecg。依据：高钾血症反映肾功能损害，影响CYP2D6底物排泄,clinical_judgment,low,low
+CCA-C19-ELEC-K-HIGH,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【K】>5.5mEq/L时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：monitor_ecg。依据：高钾血症反映肾功能损害，影响CYP2C19底物排泄,clinical_judgment,low,low
+CCA-D6-INFLAM-CRP-HIGH,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【CRP】>50mg/L时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：cyp_activity_may_decrease。依据：严重炎症时CRP>50mg/L可抑制CYP酶活性，CYP2D6代谢减弱（临床判断）,clinical_judgment,low,low
+CCA-C19-INFLAM-CRP-HIGH,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【CRP】>50mg/L时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：cyp_activity_may_decrease。依据：严重炎症时CRP>50mg/L可抑制CYP酶活性，CYP2C19代谢减弱（临床判断）,clinical_judgment,low,low
+CCA-TEST-IND-LIVER-ALT,cca_blood_marker,CYP2D6+CYP2C19,all_CYP_substrate,,,当化验指标【ALT】>3xULN时，使用药物all_CYP_substrate的患者，CYP2D6+CYP2C19代谢能力受影响。建议行动：test_recommended。依据：ALT>3×ULN+CYP底物时，强烈建议基因检测明确代谢能力（CPIC临床判断）,CPIC_clinical_judgment,medium,medium
+CCA-TEST-IND-LIVER-AST,cca_blood_marker,CYP2D6+CYP2C19,all_CYP_substrate,,,当化验指标【AST】>3xULN时，使用药物all_CYP_substrate的患者，CYP2D6+CYP2C19代谢能力受影响。建议行动：test_recommended。依据：AST>3×ULN+CYP底物时，建议基因检测,CPIC_clinical_judgment,medium,medium
+CCA-TEST-IND-RENAL-CRCL,cca_blood_marker,CYP2D6+CYP2C19,all_CYP_substrate,,,当化验指标【CrCl】<30mL/min时，使用药物all_CYP_substrate的患者，CYP2D6+CYP2C19代谢能力受影响。建议行动：test_recommended。依据：CrCl<30+CYP底物多药联用时，建议基因检测（CPIC临床判断）,CPIC_clinical_judgment,medium,medium
+CCA-TEST-IND-COAG-INR,cca_blood_marker,CYP2D6+CYP2C19,all_CYP_substrate,,,当化验指标【INR】>1.5时，使用药物all_CYP_substrate的患者，CYP2D6+CYP2C19代谢能力受影响。建议行动：test_recommended。依据：INR>1.5+抗凝药+CYP底物时，建议基因检测（CPIC warfarin guideline）,CPIC_warfarin_guideline,low,low
+CCA-TEST-IND-HEMA-PLT,cca_blood_marker,CYP2D6+CYP2C19,all_CYP_substrate,,,当化验指标【Plt】<75000/uL时，使用药物all_CYP_substrate的患者，CYP2D6+CYP2C19代谢能力受影响。建议行动：test_recommended。依据：血小板显著减少时用药风险增加，建议基因检测,CPIC_clinical_judgment,low,low
+CCA-TDM-AMITRIPTYLINE,cca_tdm_recommendation,CYP2D6,amitriptyline,,,"当化验指标【plasma_concentration】N/A时，使用药物amitriptyline的患者，CYP2D6代谢能力受影响。建议行动：TDM_80_200ng_mL。依据：阿米替林TDM推荐范围80-200ng/mL（CPIC 2016 TCA指南；CPIC 2016 Hicks et al., CPT 2017;102:37-44）",CPIC_2016_TCA_Hicks_CPT2017,strong,strong
+CCA-TDM-NORTRIPTYLINE,cca_tdm_recommendation,CYP2D6,nortriptyline,,,当化验指标【plasma_concentration】N/A时，使用药物nortriptyline的患者，CYP2D6代谢能力受影响。建议行动：TDM_50_150ng_mL。依据：去甲替林TDM推荐范围50-150ng/mL（CPIC 2016 TCA指南）,CPIC_2016_TCA_Hicks_CPT2017,strong,strong
+CCA-TDM-IMIPRAMINE,cca_tdm_recommendation,CYP2D6,imipramine,,,当化验指标【plasma_concentration】N/A时，使用药物imipramine的患者，CYP2D6代谢能力受影响。建议行动：TDM_150_250ng_mL。依据：丙米嗪TDM推荐范围150-250ng/mL（含活性代谢物去甲丙米嗪）（CPIC 2016 TCA指南）,CPIC_2016_TCA_Hicks_CPT2017,strong,strong
+CCA-TDM-VORICONAZOLE,cca_tdm_recommendation,CYP2C19,voriconazole,,,"当化验指标【plasma_concentration】N/A时，使用药物voriconazole的患者，CYP2C19代谢能力受影响。建议行动：TDM_1_5mg_L。依据：伏立康唑TDM推荐范围1-5mg/L（CPIC 2019指南；Morrison et al., CPT 2019;106:1178-1189）",CPIC_2019_voriconazole_Morrison,strong,strong
+CCA-TDM-CLOMIPRAMINE,cca_tdm_recommendation,CYP2D6,clomipramine,,,当化验指标【plasma_concentration】N/A时，使用药物clomipramine的患者，CYP2D6代谢能力受影响。建议行动：TDM_250_400ng_mL。依据：氯米帕明TDM推荐范围250-400ng/mL（含活性代谢物）（CPIC 2016 TCA指南）,CPIC_2016_TCA_Hicks_CPT2017,strong,strong
+CCA-TDM-DESIPRAMINE,cca_tdm_recommendation,CYP2D6,desipramine,,,当化验指标【plasma_concentration】N/A时，使用药物desipramine的患者，CYP2D6代谢能力受影响。建议行动：TDM_100_300ng_mL。依据：地昔帕明TDM推荐范围100-300ng/mL（CPIC 2016 TCA指南）,CPIC_2016_TCA_Hicks_CPT2017,strong,strong
+CCA-TDM-CLOPIDOGREL-METABOLITE,cca_tdm_recommendation,CYP2C19,clopidogrel,,,"当化验指标【platelet_reactivity】N/A时，使用药物clopidogrel的患者，CYP2C19代谢能力受影响。建议行动：verify_adequate_response。依据：氯吡格雷治疗反应性监测：CYP2C19 PM患者血小板抑制不足风险增加（CPIC 2022 clopidogrel guideline；Linton et al., CPT 2022）",CPIC_2022_clopidogrel_Linton,medium,medium
+CCA-D6-LIVER-ENCEPHALOPATHY,cca_blood_marker,CYP2D6,all_CYP2D6_substrate,,,当化验指标【NH3】>1.5xULN时，使用药物all_CYP2D6_substrate的患者，CYP2D6代谢能力受影响。建议行动：metabolism_severely_reduced。依据：肝性脑病时CYP酶活性严重受损，CYP2D6代谢显著减弱（FDA label: lorazepam相关）,FDA_label_lorazepam,medium,medium
+CCA-C19-LIVER-ENCEPHALOPATHY,cca_blood_marker,CYP2C19,all_CYP2C19_substrate,,,当化验指标【NH3】>1.5xULN时，使用药物all_CYP2C19_substrate的患者，CYP2C19代谢能力受影响。建议行动：metabolism_severely_reduced。依据：肝性脑病时CYP酶活性严重受损，CYP2C19代谢显著减弱（临床判断）,clinical_judgment,medium,medium

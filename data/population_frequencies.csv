@@ -1,0 +1,5 @@
+﻿population,pm_freq,im_freq,nm_freq,um_freq,source
+东亚,0.004,0.44,0.54,0.014,PharmGKB/Gaedigk 2017 (Genet Med)
+欧洲,0.054,0.10,0.815,0.031,PharmGKB/Gaedigk 2017 (Genet Med)
+非洲裔,0.030,0.32,0.61,0.040,Gaedigk 2017 (Genet Med) / NCBI Bookshelf
+拉美裔,0.025,0.28,0.63,0.065,RIBEF-CEIBA Consortium (Clin Pharmacol Ther 2018)

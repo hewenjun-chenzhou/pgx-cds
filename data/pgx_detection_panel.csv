@@ -1,0 +1,11 @@
+gene,snp_id,allele,marker_name,test_method,cost_cny,coverage_pop,evidence_level,note
+CYP2D6,rs1065852,*10,CYP2D6*10 (T>C splicing defect),TaqMan qPCR,80,东亚~42%,CPIC 1A,东亚人群最关键位点 覆盖IM主要来源
+CYP2D6,rs35742686,*5,CYP2D6*5 (gene deletion),CNV via qPCR,80,东亚~5%/欧洲~2%,CPIC 1A,基因缺失 纯合*5/*5直接是PM
+CYP2D6,rs3892097,*4,CYP2D6*4 (splicing defect),TaqMan qPCR,80,欧洲~18%/东亚<1%,CPIC 1A,欧洲人群关键 东亚几乎可省
+CYP2D6,rs28371725,*41,CYP2D6*41 (splicing defect),TaqMan qPCR,80,欧洲~8%,CPIC 1A,欧洲关键
+CYP2D6,rs16947,*2,CYP2D6*2 (R296C normal),TaqMan qPCR,80,普遍~10-20%,PharmGKB 2A,正常功能位点 主要用于确认非*1
+CYP2C19,rs4244285,*2,CYP2C19*2 (splicing defect no function),TaqMan qPCR,80,东亚~28%/欧洲~15%,CPIC 1A,东亚关键位点
+CYP2C19,rs4986893,*3,CYP2C19*3 (W212X no function),TaqMan qPCR,80,东亚~8%/欧洲<1%,CPIC 1A,东亚高频无功能
+CYP2C19,rs12248560,*17,CYP2C19*17 (promoter increased),TaqMan qPCR,80,欧洲~18%/东亚~4%,CPIC 1A,快代谢型来源
+CYP2D6,FULL_GENE,CYP2D6,CYP2D6 全基因测序 9 exons + CNV,NGS/Sanger,1500,所有变异,CPIC gold,覆盖所有已知/新变异
+CYP2C19,FULL_GENE,CYP2C19,CYP2C19 全基因测序 9 exons,NGS/Sanger,1500,所有变异,CPIC gold,覆盖所有已知/新变异

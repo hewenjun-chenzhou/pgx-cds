@@ -1,0 +1,11 @@
+rule_id,rule_type,trigger_marker,trigger_condition,drug_name,gene,action,strength,evidence_source,content
+CCA-D6-LIVER-001,blood_marker,ALT,>3xULN,all_CYP2D6_substrate,CYP2D6,dose_reduce_50,medium,FDA_labels_multiple,肝功能严重异常时CYP2D6代谢减弱，建议剂量减半（多个FDA标签：amitriptyline、paroxetine、fluoxetine）
+CCA-C19-LIVER-001,blood_marker,ALT,>3xULN,all_CYP2C19_substrate,CYP2C19,dose_reduce_50,medium,FDA_labels_multiple,肝功能严重异常时CYP2C19代谢减弱，建议剂量减半（FDA voriconazole、lansoprazole标签）
+CCA-D6-RENAL-001,blood_marker,CrCl,<30 mL/min,all_CYP2D6_substrate,CYP2D6,accumulation_risk_monitor,medium,FDA_label_codeine,肾功能不全时CYP2D6底物蓄积风险增加（FDA codeine label：CrCl<30时减少剂量）
+CCA-C19-RENAL-001,blood_marker,CrCl,<30 mL/min,all_CYP2C19_substrate,CYP2C19,accumulation_risk_monitor,low,FDA_label_clopidogrel,肾功能不全时CYP2C19底物蓄积风险（FDA clopidogrel label）
+CCA-TEST-IND-001,test_indication,ALT,>3xULN,all_CYP_substrate,CYP2D6+CYP2C19,test_recommended,medium,clinical_judgment,肝功能异常+CYP底物风险未知，建议基因检测明确代谢能力
+CCA-TEST-IND-002,test_indication,CrCl,<30 mL/min,all_CYP_substrate,CYP2D6+CYP2C19,test_recommended,medium,clinical_judgment,肾功能不全+多药+CYP底物风险增加，建议基因检测
+CCA-TDM-D6-001,tdm_recommendation,all,N/A,amitriptyline,CYP2D6,TDM_recommended_50_200ng_mL,strong,CPIC_2016_TCA_Hicks_CPT2017,阿米替林治疗药物监测推荐：治疗范围80-200 ng/mL（CPIC 2016 TCA指南）
+CCA-TDM-D6-002,tdm_recommendation,all,N/A,nortriptyline,CYP2D6,TDM_recommended_50_150ng_mL,strong,CPIC_2016_TCA_Hicks_CPT2017,去甲替林治疗药物监测推荐：治疗范围50-150 ng/mL（CPIC 2016 TCA指南）
+CCA-TDM-D6-003,tdm_recommendation,all,N/A,imipramine,CYP2D6,TDM_recommended_150_250ng_mL,strong,CPIC_2016_TCA_Hicks_CPT2017,丙米嗪治疗药物监测推荐：治疗范围150-250 ng/mL（CPIC 2016 TCA指南）
+CCA-TDM-C19-001,tdm_recommendation,all,N/A,voriconazole,CYP2C19,TDM_recommended_1_5mg_L,strong,CPIC_2019_voriconazole,伏立康唑治疗药物监测推荐：治疗范围1-5 mg/L（CPIC 2019指南）

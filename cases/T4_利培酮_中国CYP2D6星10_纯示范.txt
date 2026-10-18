@@ -1,0 +1,9 @@
+主诉：精神分裂症5年，加重伴行为紊乱1月
+诊断：慢性精神分裂症（ICD-10 F20.8），利培酮治疗中
+用药：利培酮 4mg Bid（6mg/d）
+基因型（已知报告）：CYP2D6 *10/*10
+化验：ALT=28 U/L，AST=22 U/L，Cr=0.85 mg/dL，CrCl=95 mL/min，eGFR=98 mL/min/1.73m²，Alb=4.2 g/dL，T.Bili=0.7 mg/dL，NH3=32 μg/dL，INR=1.0，PT=12秒，Plt=235000 /μL，K=4.2 mEq/L，CRP=4 mg/L，PRL=82 ng/mL（基线15，正常男<15），Glu=5.6 mmol/L，HDL=1.1 mmol/L，TG=1.8 mmol/L，LDL=3.0 mmol/L，ESRS=6（基线2）
+人群：东亚
+利培酮标准剂量（6mg/d）治疗第4周出现明显EPS（震颤、肌强直、动作迟缓），Barnes评分升高；PRL较基线升高5倍；HDL下降、TG升高；BMI升高1.5kg
+血药浓度（HPLC测定，晨7时空腹）：利培酮=28 ng/mL，9-OH-RIS=12 ng/mL，R/9-OH=2.33
+CYP2D6 *10/*10 = activity score 1.0 = IM（中间代谢型，非 PM）。*10 等位基因活性分 0.5，纯合 1.0 落在 IM 范围。Lu et al. 2021 BMC Psychiatry 76 例中国队列证实 *10 携带者 R/9-OH 比值显著高于 *2（P<0.05），*10/*10 较 *10/CT 杂合子浓度更高（P<0.01），EPS 第 4 周显著升高（F=5.858, P=0.037）。本案例用于演示"血液化验 + 临床症状"双证据推断 IM/PM 边界表型，提示 PM/IM 区分在 *10 高频东亚人群中较困难。

@@ -1,0 +1,21 @@
+signal_name,target_phenotype,effect_direction,strength,context,interpretation,test_recommendation,citation
+可待因镇痛完全无效或严重不良反应,PM,no_effect,强,可待因30mg标准剂量镇痛效果几乎为零或出现严重不良反应,可待因为前药，CYP2D6 PM型无法将可待因转化为活性代谢物吗啡,强烈推荐（CPIC 2021强信号：可待因对CYP2D6 PM型镇痛无效，且中毒风险不增加，故应禁用）,CPIC 2021血小板指南(Crews)
+曲马多镇痛完全无效,PM,no_effect,强,曲马多标准剂量镇痛效果差,曲马多需CYP2D6转化为O-去甲基曲马多（活性代谢物），PM型代谢不足,强烈推荐（CPIC 2021强信号：曲马多对CYP2D6 PM型镇痛减弱）,CPIC 2021血小板指南(Crews)
+低剂量TCA即出现明显抗胆碱能副作用,PM,no_effect,强,阿米替林或氯米帕明25-50mg/d即出现口干/便秘/尿潴留/视力模糊,TCA需CYP2D6代谢，PM型母药蓄积,强烈推荐（CPIC 2016 TCA强信号：PM型TCA蓄积导致ADR）,CPIC 2016 TCA指南(Hicks)
+TCA标准剂量抗抑郁疗效差且ADR明显,PM,low_effect,强,标准剂量TCA抗抑郁效果差且出现明显不良反应,TCA在PM型中血药浓度升高,强烈推荐（TCA对CYP2D6 PM型风险大于获益）,CPIC 2016 TCA指南(Hicks)
+SSRIs/SNRIs初始剂量即出现显著副作用,PM,no_effect,中,帕罗西汀/氟西汀等起始剂量即出现明显恶心/头晕/性功能障碍,SSRIs/SNRIs在CYP2D6 PM型中代谢减慢，血药浓度升高,推荐（CYP2D6 PM型SSRI血药浓度显著升高）,CPIC 2023 SSRI/SNRI指南(Bousman)
+阿托西汀血药浓度异常升高,PM,no_effect,强,阿托西汀血药浓度10倍于正常，CYP2D6 PM型代谢严重不足,阿托西汀几乎全部经CYP2D6代谢，PM型暴露量约10倍,强烈推荐（CPIC 2019强信号：阿托西汀对CYP2D6 PM型需减量50%),CPIC 2019 ADHD指南(Brown)
+利培酮锥体外系反应或PRL显著升高,PM,no_effect,中,利培酮标准剂量出现明显EPS或高催乳素血症,CYP2D6 PM型利培酮暴露量显著增加,推荐（DPWG指南：PM型利培酮暴露增加，需减量）,DPWG精神药物指南
+利培酮治疗4周内体重增加超2kg或血脂异常,PM,no_effect,中,利培酮标准治疗4周出现体重增加>2kg或HDL下降/血糖异常,Lu 2021证实CYP2D6*10携带者体重变化显著(P=0.001)、HDL第8周变化显著(P=0.042),推荐（Lu et al. BMC Psychiatry 2021证实*10基因型与利培酮代谢不良反应相关，建议PM型减量50%）,Lu_et_al_BMC_Psychiatry_2021_PMID_33540457
+氟哌啶醇EPS或急性肌张力障碍,PM,no_effect,强,氟哌啶醇标准剂量出现明显EPS（震颤/僵硬/运动迟缓）或急性肌张力障碍,Luca 2026系统综述（18项研究n=2037）：氟哌啶醇PM型40-80%出现EPS vs EM型12-30%；氟哌啶醇>50%清除经CYP2D6,强烈推荐（DPWG 2024 + Luca 2026强信号：氟哌啶醇PM型需减量50%或换药）,Luca_Eur_J_Psychiatry_2026_PMID_DPWG2024
+利培酮震颤或肌强直,IM,no_effect,强,利培酮标准剂量治疗出现震颤或肌强直（Simpson-Angus量表或DIEPSS）,Bondrescu 2024（n=103 SSD, 控制phenocopying）：IM/PM震颤僵硬73% vs EM 23%, P=0.002；Ito 2018：IM DIEPSS=5.0 vs EM=0.0, P<0.001,强烈推荐（DPWG 2024 + Luca 2026强信号：利培酮IM/PM型需减量50%+TDM监测）,Luca_Eur_J_Psychiatry_2026_PMID_DOI_Bondrescu2024
+美托洛尔心动过缓或低血压,PM,no_effect,中,标准剂量美托洛尔出现明显心动过缓或血压下降,CYP2D6 PM型美托洛尔血药浓度升高，β受体阻滞作用过强,推荐（DPWG指南：PM型美托洛尔暴露增加）,DPWG心血管药物指南
+可待因中毒（严重呼吸抑制）,UM,too_strong,强,可待因后出现严重嗜睡/呼吸抑制/瞳孔缩小,CYP2D6 UM型将可待因快速转化为过量吗啡,强烈推荐（CPIC 2021强信号：可待因对CYP2D6 UM型中毒风险）,CPIC 2021血小板指南(Crews)
+曲马多癫痫发作或5-HT综合征,UM,too_strong,强,曲马多后出现癫痫发作或5-HT综合征,CYP2D6 UM型快速产生过量O-去甲基曲马多和5-HT激活,强烈推荐（CPIC 2021强信号：曲马多对CYP2D6 UM型神经毒性风险）,CPIC 2021血小板指南(Crews)
+TCA标准剂量完全无效（快速代谢型）,UM,too_strong,强,标准剂量TCA血药浓度极低，完全无抗抑郁效果,CYP2D6 UM型代谢TCA极快，母药血药浓度不足,强烈推荐（CPIC 2016 TCA强信号：UM型TCA疗效不足）,CPIC 2016 TCA指南(Hicks)
+昂丹司琼止吐效果差,UM,too_strong,中,化疗后标准剂量昂丹司琼仍有呕吐,CYP2D6 UM型昂丹司琼清除过快，血药浓度不足,推荐（CPIC 2017：昂丹司琼对CYP2D6 UM型疗效不足，可换用格拉司琼）,CPIC 2017昂丹司琼/托烷司琼指南(Bell)
+帕罗西汀血药浓度极低或疗效差,UM,too_strong,弱,帕罗西汀血药浓度低于预期，治疗效果差,CYP2D6 UM型快速代谢帕罗西汀,弱推荐（证据有限但机制明确：帕罗西汀对CYP2D6 UM型疗效不足）,Guzey & Spigset 2006
+他莫昔芬治疗期间乳腺癌复发（绝经后）,PM,low_effect,中,绝经后乳腺癌患者使用他莫昔芬2-3年内复发,Endoxifen（他莫昔芬活性代谢物）需CYP2D6活化，PM型浓度不足,强烈推荐（CPIC 2018强信号：绝经后CYP2D6 PM型应换芳香化酶抑制剂）,CPIC 2018他莫昔芬指南(Goetz)
+他莫昔芬疗效不足/复发/Endoxifen浓度低,PM,low_effect,中,他莫昔芬标准剂量治疗期间疗效不足或肿瘤复发,他莫昔芬经CYP2D6活化为Endoxifen，PM/IM型浓度不足导致耐药,推荐（CYP2D6 PM型他莫昔芬疗效差，CPIC建议换芳香化酶抑制剂）,CPIC 2018他莫昔芬指南(Goetz)
+文拉法辛疗效差/疗效不佳/无效（PM/IM）,PM,low_effect,中,文拉法辛足量足疗程（75-225mg/d）抗抑郁效果差或无效,文拉法辛主要经CYP2D6代谢，PM/IM型血药浓度异常，疗效可能不足,推荐（文拉法辛对CYP2D6 PM型疗效不足，可考虑换药或检测确认）,CPIC 2023 SSRI/SNRI指南(Bousman)
+文拉法辛副作用/ADR/严重不良反应,PM,no_effect,中,文拉法辛起始剂量即出现明显恶心/头晕/血压升高/嗜睡等ADR,SSRIs/SNRIs在CYP2D6 PM型中代谢减慢，血药浓度升高，ADR风险增加,推荐（CYP2D6 PM型SSRI/SNRI血药浓度显著升高）,CPIC 2023 SSRI/SNRI指南(Bousman)

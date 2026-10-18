@@ -1,0 +1,6 @@
+主诉：抑郁症维持治疗
+诊断：复发性抑郁症，稳定期
+用药：舍曲林50mg QD
+化验：ALT=20 U/L，AST=18 U/L，Cr=0.9 mg/dL，CrCl=90 mL/min，eGFR=100 mL/min/1.73m²，Alb=4.2 g/dL，T.Bili=0.5 mg/dL，NH3=25 μg/dL，INR=1.0，PT=12秒，Plt=230000 /μL，K=4.0 mEq/L，CRP=3 mg/L
+CYP2D6: *1/*1 (NM型)
+CYP2C19: *1/*1 (NM型)

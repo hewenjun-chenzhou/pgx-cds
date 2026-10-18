@@ -1,0 +1,25 @@
+病例 ID: T23c_DPWG_PM_SignalMatch
+
+主诉：精神分裂症10年，复发伴EPS 6周
+
+诊断：偏执型精神分裂症
+
+用药：氟哌啶醇，利培酮，苯海索
+
+人群：欧洲
+性别：男
+年龄：52
+
+基因型：CYP2D6 *4/*4
+
+化验：ALT=30 U/L，AST=25 U/L，Cr=0.95 mg/dL，CrCl=88 mL/min，eGFR=92 mL/min/1.73m²，Alb=4.0 g/dL，T.Bili=0.6 mg/dL，NH3=28 μg/dL，INR=1.0，PT=12秒，Plt=240000 /μL，K=4.3 mEq/L，CRP=3 mg/L
+
+氟哌啶醇EPS或急性肌张力障碍
+氟哌啶醇标准剂量出现明显EPS（震颤/僵硬/运动迟缓）
+SAS=18 DIEPSS=12 BARS=3
+氟哌啶醇>50%清除经CYP2D6
+
+利培酮锥体外系反应或PRL显著升高
+利培酮标准剂量出现明显EPS
+震颤、肌强直
+PRL较基线升高5倍
